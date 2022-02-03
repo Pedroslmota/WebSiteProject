@@ -1,0 +1,348 @@
+body {
+	font-family: 'Work Sans', sans-serif;
+}
+
+header {
+	background-color: #32284b;
+	background-image: url(background_Images/fingerprint.png);
+	background-size: cover;
+}
+
+.navbar {
+	background-color: transparent;
+}
+
+.title {
+	margin-top: 25vh;
+}
+
+#continueTop {
+	margin-top: 26vh;
+}
+
+#continueBot {
+	margin-top: 28vh;
+}
+
+.snap-child.purple {
+	scroll-snap-align: start;
+	scroll-margin-bottom: 80vh;
+}
+
+article.purple {
+	height: auto;
+}
+
+.purple {
+	background-color: #32284b;
+	color: white;
+}
+
+.head {
+	padding-top: 15vh;
+	padding-left: 12vw;
+	font-weight: 100;
+	font-size: 3.5rem;
+}
+
+.subHead {
+	padding-top: 27vh;
+	font-weight: 100;
+	font-size: 1.2rem;
+}
+
+.mobile {
+	display: none;
+}
+
+.mockupImage {
+	width: 100%;
+	padding-right: 6vh;
+	padding-top: 15vh;
+	padding-bottom: 15vh;
+}
+
+.orange {
+	color: #ff4500;
+}
+
+.section2 h3 {
+	text-transform: uppercase;
+	font-weight: 600;
+}
+
+.section2 p {
+	margin-left: 2vw;
+	margin-top: 5vh;
+	padding-right: 9vw;
+	font-weight: 300;
+}
+
+.section3 {
+	margin-left: 6vw;
+	margin-top: 20vh;
+}
+
+.section3 h2 {
+	font-weight: 600;
+}
+
+.section3 p {
+	margin-top: 4vh;
+	margin-left: 2vw;
+	padding-right: 64vw;
+}
+
+.section4 {
+	position: relative;
+}
+
+.section4 img {
+	width: 100%;
+	position: relative;
+}
+
+.section4 .svgBackground {
+	position: absolute;
+	left: 15vw;
+	top: 15vh;
+}
+
+.section4 p {
+	margin-top: 20vh;
+	padding-right: 12vw;
+	line-height: 1.7;
+	font-size: 1.2rem;
+}
+
+.section5 {
+	position: relative;
+}
+
+.section5 h2 {
+	text-transform: uppercase;
+	font-size: 1.3rem;
+	margin-top: 15vh;
+}
+
+.section5 h3 {
+	font-size: 1rem;
+	margin-top: 7vh;
+	margin-bottom: 3vh;
+}
+
+.section5 ul {
+	margin-left: 2vw;
+	line-height: 1.9;
+}
+
+.section5 ul li::before {
+	content: "\2022";
+	color: #ff4500;
+	font-weight: bold;
+	display: inline-block;
+	width: 1em;
+	margin-left: -1em;
+}
+
+.section5 img {
+	margin-top: 5vh;
+	width: 100%;
+	position: relative;
+}
+
+.section5 .svgBackground {
+	position: absolute;
+	right: 0;
+	top: 60vh;
+}
+
+.section6 {
+	margin-left: 6vw;
+	margin-top: 20vh;
+}
+
+.section6 h2 {
+	font-weight: 600;
+}
+
+.section6 p {
+	margin-top: 4vh;
+	margin-left: 2vw;
+	padding-right: 60vw;
+	margin-bottom: 5vh;
+}
+
+.section7 {
+	position: relative;
+}
+
+.section7 img {
+	width: 100%;
+	position: relative;
+}
+
+.section7 .svgBackground {
+	position: absolute;
+	left: 15vw;
+	top: 15vh;
+}
+
+.section7 p {
+	margin-top: 20vh;
+	padding-right: 12vw;
+	line-height: 1.7;
+	font-size: 1.2rem;
+}
+
+.section8 {
+	position: relative;
+	margin-top: 20vh;
+	height: auto;
+	padding-bottom: 10vh;
+}
+
+.section8 h2 {
+	margin-left: 0vw;
+}
+
+.section8 p {
+	margin-left: 1.5vw;
+	margin-top: 4vh;
+	padding-right: 6vh;
+	line-height: 1.8;
+}
+
+.section8 img {
+	width: 100%;
+	position: relative;
+}
+
+.section8 .svgBackground {
+	position: absolute;
+	bottom: 10vh;
+	left: 33vw;
+}
+
+.section8 #iphone2 {
+	padding-top: 15vh;
+}
+
+/* VANTAGENS */
+
+article.vantagens {
+	background-color: #fafafa;
+	height: 180vh;
+}
+
+.snap-child.vantagens {
+	scroll-snap-align: start;
+	scroll-margin-bottom: 20vh;
+}
+
+.vantagens img {
+	filter: drop-shadow(30px 30px 4px #d3d5d6);
+	width: 100%;
+}
+
+.vantagens h2 {
+	padding-top: 10vh;
+	margin-bottom: 10vh;
+	color: #32284b;
+	text-transform: uppercase;
+	font-size: 1.5rem;
+}
+.vantagens p {
+	font-weight: 100;
+	color: #32284b;
+	margin-top: 5vh;
+	margin-bottom: 8vh;
+}
+
+@media only screen and (max-width: 550px) {
+	.snap-child {
+		scroll-snap-align: start;
+		scroll-margin-bottom: 10vh;
+	}
+
+	.snap-head {
+		scroll-snap-align: start;
+	}
+
+	.snap-footer {
+		scroll-snap-align: start;
+	}
+
+	.desktop {
+		display: none;
+	}
+
+	.mobile {
+		display: block;
+		margin-bottom: 5vh;
+	}
+
+	.head {
+		font-size: 2.5em;
+		padding-left: 0;
+	}
+
+	.subHead {
+		padding-top: 10vh;
+	}
+
+	article.purple {
+		height: auto;
+		padding: 0 15px;
+	}
+
+	.row {
+		margin-left: 0px;
+		margin-right: 0px;
+	}
+
+	article.vantagens {
+		height: auto;
+	}
+	.svgBackground {
+		display: none;
+	}
+
+	.title {
+		padding: 0 4vw;
+		margin-top: 20vh;
+	}
+
+	.continue {
+		margin-top: 18vh;
+	}
+
+	.vantagens img {
+		width: 40%;
+		display: block;
+		margin: auto;
+		filter: drop-shadow(10px 10px 4px #d3d5d6);
+	}
+
+	.vantagens p {
+		padding: 0 15vw;
+	}
+
+	.section3 p {
+		padding-right: 5vw;
+	}
+
+	.section6 p {
+		padding-right: 5vw;
+	}
+
+	.section8 img {
+		display: block;
+		margin: auto;
+		width: 80%;
+	}
+
+	.mockupImage {
+		padding-right: 0;
+	}
+}

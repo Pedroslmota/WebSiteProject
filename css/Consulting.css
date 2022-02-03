@@ -1,0 +1,233 @@
+.snap-head {
+	position: relative;
+	scroll-snap-align: none;
+}
+
+.snap-child {
+	height: auto;
+	scroll-margin-bottom: 50vh;
+	scroll-snap-align: none;
+	color: #212121;
+}
+
+.snap-footer {
+	scroll-snap-align: none;
+}
+
+footer {
+	height: 100vh;
+	scroll-margin-top: 20vh;
+}
+
+.headerContent {
+	padding: 0 8vw;
+}
+
+.headerContent svg {
+	margin-top: 10vh;
+}
+
+.headerContent h1 {
+	padding-top: 30vh;
+	color: #212121;
+	font-weight: 700;
+	font-size: 5rem;
+	padding-left: 5vw;
+}
+
+#continueTop {
+	margin-top: 20vh;
+}
+
+#continueBot {
+	margin-top: 22vh;
+}
+
+h6 {
+	color: #919191;
+	font-size: 1rem;
+}
+
+h3 {
+	color: #ed3f25;
+	font-size: 3.5rem;
+	font-weight: 700;
+	line-height: .9;
+}
+
+h4 {
+	color: #212121;
+	font-weight: 700;
+	font-size: 2rem;
+	line-height: 1.7;
+	margin-bottom: 5vh;
+}
+
+.one {
+	padding-top: 30vh;
+	padding-bottom: 18vh;
+	margin-left: 20vw;
+	position: relative;
+	max-width: 100%;
+}
+
+.one img {
+	position: absolute;
+	width: 50%;
+	right: 0vw;
+	bottom: 0;
+}
+
+.one h3 {
+	margin-right: 60vw;
+}
+
+.two {
+	padding-bottom: 20vh;
+}
+
+.two p {
+	padding-right: 6vw;
+}
+
+.three {
+	margin-top: 10vh;
+	margin-bottom: 10vh;
+}
+
+.three a {
+	color: #ed3f25;
+}
+
+.three p {
+	margin-bottom: 10vh;
+}
+
+.panel-default > .panel-heading {
+	position: relative;
+}
+.panel-heading .icon {
+	position: absolute;
+	right: 10px;
+	top: -13px;
+}
+
+.fa-plus.fa-minus {
+	color: #ed3f25;
+}
+
+.panel-body {
+	margin-bottom: 2vh;
+}
+
+.four {
+	padding-top: 10vh;
+	padding-bottom: 18vh;
+	position: relative;
+}
+
+.four h3 {
+	margin-right: 40vw;
+	margin-left: 8vw;
+	margin-bottom: 15vh;
+}
+
+.four h6 {
+	margin-left: 8vw;
+}
+
+.four p {
+	padding-bottom: 15vh;
+}
+
+.four img {
+	position: absolute;
+}
+
+.ppmPhoto {
+	right: 0;
+	top: 25vh;
+	width: 45%;
+	z-index: 1;
+}
+
+.bgRectangle {
+	bottom: 20vh;
+	width: 70%;
+	z-index: -1;
+}
+
+@media only screen and (max-width: 550px) {
+	.mobile {
+		display: none;
+	}
+
+	.headerContent {
+		max-width: 100%;
+		padding: 0;
+	}
+
+	.headerContent h1 {
+		font-size: 2.5rem;
+		padding-left: 10vw;
+	}
+
+	h4 {
+		font-size: 1.6rem;
+	}
+
+	#continueTop {
+		margin-top: 28vh;
+	}
+
+	#continueBot {
+		margin-top: 31vh;
+	}
+
+	.one {
+		margin: 0 5vw;
+	}
+
+	.one img {
+		display: block;
+		margin: auto;
+		width: 100%;
+		position: relative;
+		margin-top: 10vh;
+	}
+
+	.panel-group h4 {
+		font-size: 1.2rem;
+	}
+
+	.panel-heading .icon {
+		top: -25px;
+	}
+
+	.four {
+		max-width: 100%;
+	}
+
+	.four h3 {
+		margin-left: 0;
+		margin-right: 0;
+		font-size: 2.8rem;
+	}
+
+	.four h6 {
+		margin-left: 0;
+	}
+
+	.four .ppmPhoto {
+		display: block;
+		position: static;
+		margin: auto;
+		width: 90%;
+		margin: 0 5vw;
+		margin-bottom: 5vh;
+	}
+
+	.four .bgRectangle {
+		width: 100%;
+	}
+}

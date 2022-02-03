@@ -1,0 +1,318 @@
+/* About page */
+
+.headline {
+	font-size: 90pt;
+	margin-top: 150px;
+	font-weight: 800;
+	line-height: .95;
+	color: #212121;
+}
+
+.mainContent {
+	scroll-snap-align: start;
+	scroll-margin-bottom: 80vh;
+}
+
+body {
+	max-width: 100%;
+	overflow-x: hidden;
+}
+
+#continueTop {
+	margin-top: 0vh;
+}
+
+#continueBot {
+	margin-top: 2vh;
+}
+
+.headclr {
+	color: #ed3f25;
+}
+
+.img_1 {
+	height: 100vh;
+	padding-top: 25vh;
+}
+
+.img_2 {
+	height: 100vh;
+	padding-top: 25vh;
+}
+
+.img_title {
+	color: #ed3f25;
+	font-weight: 800;
+	font-size: 60pt;
+	line-height: .9;
+}
+
+.img_title:hover {
+	color: orangered !important;
+	text-decoration: none;
+}
+
+.img_number {
+	color: white;
+	font-weight: 600;
+	font-size: 15pt;
+	margin-right: 230px;
+	line-height: .3;
+}
+
+.parent_all {
+	position: relative;
+}
+
+.parent_text {
+	position: absolute;
+	bottom: 350px;
+	left: 395px;
+}
+
+.border_image {
+	position: relative;
+	top: 0;
+	left: 0;
+}
+
+.border_rectangle {
+	position: absolute;
+	top: -25px;
+	left: 40px;
+}
+
+.img_title2 {
+	color: #ed3f25;
+	font-weight: 800;
+	font-size: 60pt;
+	line-height: .9;
+}
+
+.img_title2:hover {
+	color: orangered !important;
+	text-decoration: none;
+}
+
+.img_number2 {
+	color: white;
+	font-weight: 600;
+	font-size: 15pt;
+	margin-left: 400px;
+	line-height: .3;
+}
+
+.parent_all {
+	position: relative;
+}
+
+.parent_text2 {
+	position: absolute;
+	bottom: 350px;
+	left: -360px;
+}
+
+.border_image2 {
+	position: relative;
+	top: 0;
+	left: 0;
+}
+
+.border_rectangle2 {
+	position: absolute;
+	top: -25px;
+	left: -10px;
+}
+
+.continue {
+	margin-top: 50px;
+	margin-bottom: 300px;
+}
+
+.via_projects {
+	padding-left: 100px;
+	padding-top: 200px;
+	color: #919191 !important;
+	font-weight: 500 !important;
+	font-size: 15pt;
+	line-height: 2;
+}
+
+.via_links {
+	color: #919191;
+}
+
+.via_links:hover {
+	color: #212121;
+	text-decoration: none;
+}
+
+@media only screen and (max-width: 550px) {
+	.headline {
+		font-size: 2.5em;
+		margin-top: 150px;
+		font-weight: 800;
+		line-height: .95;
+	}
+
+	.mainContent {
+		scroll-snap-align: none;
+	}
+
+	.continue {
+		margin-top: 15vh;
+	}
+
+	img {
+		display: block;
+		margin: auto;
+		width: 100%;
+	}
+	.img_2 {
+		padding-top: 0;
+		margin-top: 20vh;
+	}
+
+	.border_rectangle {
+		display: none;
+	}
+
+	.border_rectangle2 {
+		display: none;
+	}
+
+	.parent_text {
+		left: 10vw;
+		bottom: 3vh;
+	}
+	.parent_text2 {
+		left: 10vw;
+		bottom: 3vh;
+	}
+
+	.img_title2 {
+		font-size: 1.5em;
+	}
+
+	.img_1 {
+		padding-top: 5vh;
+	}
+
+	.img_2 {
+		margin-bottom: 20vh;
+	}
+
+	.img_number2 {
+		margin-left: 0;
+	}
+
+	.via_projects {
+		padding-top: 5vh;
+		padding-left: 15vw;
+	}
+}
+
+@media only screen and (max-width: 350px) {
+	.headline {
+		font-size: 2em;
+		margin-top: 15vh;
+		font-weight: 800;
+		line-height: .95;
+	}
+
+	img {
+		height: 100%;
+	}
+
+	.via_projects {
+		padding-left: 10vw;
+	}
+}
+
+/* @media only screen and (max-width: 990px) {
+	.headline {
+		font-size: 50pt;
+		margin-top: 150px;
+		font-weight: 800;
+		line-height: .95;
+	}
+
+	.parent_text {
+		position: absolute;
+		bottom: 350px;
+		left: 250px;
+	}
+
+	.parent_text2 {
+		position: absolute;
+		bottom: 350px;
+		left: 250px;
+	}
+
+	.img_number2 {
+		color: white;
+		font-weight: 600;
+		font-size: 15pt;
+		margin-left: -400px;
+		line-height: .3;
+	}
+
+	.img_1 {
+		padding-top: 10vh;
+	}
+
+	.img_2 {
+		padding-top: 10vh;
+	}
+
+	.via_projects {
+		padding-top: 100px;
+		padding-left: 0;
+	}
+}
+@media only screen and (max-width: 765px) {
+	.headline {
+		font-size: 35pt;
+		margin-top: 150px;
+		font-weight: 800;
+		line-height: .95;
+	}
+
+	.parent_text {
+		position: absolute;
+		bottom: 350px;
+		left: 100px;
+	}
+
+	.parent_text2 {
+		position: absolute;
+		bottom: 350px;
+		left: 100px;
+	}
+
+	.via_projects {
+		padding-top: 100px;
+		padding-left: 0;
+	}
+
+	.foot {
+		color: white;
+		font-weight: 900;
+		font-size: 60pt;
+		line-height: 1 !important;
+	}
+
+	.foot-text {
+		padding-top: 150px;
+		padding-bottom: 150px;
+	}
+
+	.foot-nav {
+		padding-left: 0px;
+		margin-bottom: 2vh;
+	}
+
+	.via_projects2 {
+		padding-left: 100px;
+	}
+} */

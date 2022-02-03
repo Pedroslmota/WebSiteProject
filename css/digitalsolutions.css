@@ -1,0 +1,1102 @@
+/* DIGITAL SOLUTIONS */
+
+header {
+	background-image: url(background_images/digital/digitalBackground.png);
+	background-size: cover;
+}
+
+html,
+body {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+.row {
+	max-width: 100%;
+}
+article .row {
+	margin-right: 0;
+	margin-left: 0;
+}
+
+.snap-head {
+	position: relative;
+}
+
+#via-logo {
+	fill: #ed3f25;
+}
+
+#via-logo.via-svg-Botik {
+	fill: #ed3f25;
+	transition-duration: .3s;
+}
+
+#via-logo.via-svg-booya {
+	fill: white;
+	transition-duration: .3s;
+}
+
+#via-logo.via-svg-mywallet {
+	fill: #161c3f;
+	transition-duration: .3s;
+}
+
+#via-logo.via-svg-viacash {
+	fill: #ff6730;
+	transition-duration: .3s;
+}
+
+#via-logo.via-svg-kinito {
+	fill: #ff6b2d;
+	transition-duration: .3s;
+}
+
+#via-logo.via-svg-msgtemplates {
+	fill: white;
+	transition-duration: .3s;
+}
+
+#via-logo.via-svg-viabox {
+	fill: white;
+	transition-duration: .3s;
+}
+
+#via-logo.via-svg-none {
+	display: none;
+}
+
+/* NAVBAR LINK COLOR */
+
+#nav-swap a {
+	color: #212121;
+}
+
+#nav-swap.navbar-default a {
+	color: #212121;
+}
+
+#nav-swap.navbar-botik a {
+	color: white;
+}
+
+#nav-swap.navbar-booya a {
+	color: white;
+}
+
+#nav-swap.navbar-mywallet a {
+	color: #161c3f;
+}
+
+#nav-swap.navbar-viacash a {
+	color: #51246f;
+}
+
+#nav-swap.navbar-kinito a {
+	color: white;
+}
+
+#nav-swap.navbar-msgtemplates a {
+	color: white;
+}
+
+#nav-swap.navbar-viabox a {
+	color: white;
+}
+
+#nav-swap.navbar-none a {
+	display: none;
+}
+
+/* navbar toggler */
+
+#togglerBtn.togglerDefault {
+	stroke: #ed3f25;
+}
+
+#togglerBtn.togglerBotik {
+	stroke: #ed3f25;
+	transition-duration: .3s;
+}
+
+#togglerBtn.togglerBooya {
+	stroke: white;
+	transition-duration: .3s;
+}
+
+#togglerBtn.togglerMywallet {
+	stroke: #161c3f;
+	transition-duration: .3s;
+}
+
+#togglerBtn.togglerViacash {
+	stroke: #ff6730;
+	transition-duration: .3s;
+}
+
+#togglerBtn.togglerKinito {
+	stroke: #ff6b2d;
+	transition-duration: .3s;
+}
+
+#togglerBtn.togglerMsgtemplates {
+	stroke: white;
+	transition-duration: .3s;
+}
+
+#togglerBtn.togglerViabox {
+	stroke: white;
+	transition-duration: .3s;
+}
+
+#togglerBtn.togglerNone {
+	display: none;
+}
+
+.headline {
+	font-size: 8rem;
+	margin-top: 150px;
+	font-weight: 800;
+	line-height: .95;
+	color: #212121;
+}
+
+.cardSection {
+	margin: 10vh 3vw;
+}
+
+.sub-headline {
+	margin-left: 10vh;
+	font-weight: 300;
+	font-size: 1.2rem;
+	columns: #212121;
+}
+
+.product-img {
+	overflow-x: hidden;
+	width: 100%;
+	right: -10vw;
+	bottom: -5vh;
+}
+
+.txt-parent {
+	margin-top: 5vh;
+}
+
+header {
+	position: relative;
+}
+
+article {
+	height: 100vh;
+	padding-top: 18vh;
+}
+
+.card-text {
+	text-transform: uppercase;
+	font-weight: 500;
+	font-size: 1rem;
+}
+
+.purple {
+	color: #51246f;
+}
+
+.purple-blue {
+	color: #161c3f;
+}
+
+.card {
+	height: 125px;
+	padding-top: 1vh;
+}
+
+.cardBotik:hover {
+	background-color: #32284b;
+	color: white;
+	transition-duration: .3s;
+}
+
+.cardBotik:hover p {
+	color: #ed3f25;
+	transition-duration: .3s;
+}
+
+.cardBooya:hover {
+	background-color: #ff6457;
+	color: white;
+	transition-duration: .3s;
+}
+
+.cardMywallet:hover {
+	background-color: #161c3f;
+	color: white;
+	transition-duration: .3s;
+}
+
+.cardMywallet:hover p {
+	color: #d9dfff;
+	transition-duration: .3s;
+}
+
+.cardViacash:hover {
+	background-color: #51246f;
+	color: white;
+	transition-duration: .3s;
+}
+
+.cardViacash:hover p {
+	color: #ff6730;
+	transition-duration: .3s;
+}
+
+.cardKinito:hover {
+	background-color: #005460;
+	color: white;
+	transition-duration: .3s;
+}
+
+.cardKinito:hover p {
+	color: #ff6b2d;
+	transition-duration: .3s;
+}
+
+.cardMessagetemplates:hover {
+	background-color: #383838;
+	color: white;
+	transition-duration: .3s;
+}
+
+.cardMessagetemplates:hover p {
+	color: #00d35e;
+	transition-duration: .3s;
+}
+
+.cardSection a {
+	text-emphasis: none;
+	color: #212121;
+	text-decoration: none;
+}
+
+/* botik */
+
+.botik {
+	background-color: #32284b;
+}
+
+.botik .container {
+	max-width: 1150px;
+}
+
+.botik .key-word {
+	color: #ed3f25;
+	text-transform: uppercase;
+}
+
+.botik .product-name {
+	color: white;
+	font-size: 4rem;
+	padding-bottom: 8vh;
+}
+
+.botik .product-description {
+	color: white;
+	font-size: 1em;
+	font-weight: 300;
+	padding-bottom: 5vh;
+}
+
+.botik .btn {
+	border: 2px solid #ed3f25;
+	color: white;
+	text-transform: uppercase;
+	border-radius: 2px;
+	padding: 8px 35px;
+	font-size: .8em;
+}
+
+.botik .btn:hover {
+	background-color: #ed3f25;
+}
+.botik .product-img {
+	position: relative;
+}
+
+/* booya */
+
+.booya {
+	background-color: #ff6457;
+}
+
+.booya .container {
+	max-width: 1150px;
+}
+
+.booya .key-word {
+	color: white;
+	text-transform: uppercase;
+}
+
+.booya .product-name {
+	color: white;
+	font-size: 4rem;
+	padding-bottom: 8vh;
+}
+
+.booya .product-description {
+	color: white;
+	font-size: 1em;
+	font-weight: 300;
+	padding-bottom: 5vh;
+}
+
+.booya .btn {
+	border: 2px solid white;
+	color: white;
+	text-transform: uppercase;
+	border-radius: 2px;
+	padding: 8px 35px;
+	font-size: .8em;
+}
+
+.booya .btn:hover {
+	background-color: white;
+	color: black;
+}
+.booya .product-img {
+	position: relative;
+}
+
+/* mywallet */
+
+.mywallet {
+	background-color: #d9dfff;
+}
+
+.mywallet .container {
+	max-width: 1150px;
+}
+
+.mywallet .key-word {
+	color: white;
+	text-transform: uppercase;
+}
+
+.mywallet .product-name {
+	color: #161c3f;
+	font-size: 4rem;
+	padding-bottom: 8vh;
+}
+
+.mywallet .product-description {
+	color: #161c3f;
+	font-size: 1em;
+	font-weight: 300;
+	padding-bottom: 5vh;
+}
+
+.mywallet .btn {
+	border: 2px solid white;
+	color: #161c3f;
+	text-transform: uppercase;
+	border-radius: 2px;
+	padding: 8px 35px;
+	font-size: .8em;
+}
+
+.mywallet .btn:hover {
+	background-color: white;
+}
+.mywallet .product-img {
+	position: relative;
+}
+
+/* viacash */
+
+.viacash {
+	background-color: #f2f2f2;
+}
+
+.viacash .container {
+	max-width: 1150px;
+}
+
+.viacash .key-word {
+	color: #ff6730;
+	text-transform: uppercase;
+}
+
+.viacash .product-name {
+	color: #51246f;
+	font-size: 4rem;
+	padding-bottom: 8vh;
+}
+
+.viacash .product-description {
+	color: #51246f;
+	font-size: 1em;
+	font-weight: 300;
+	padding-bottom: 5vh;
+}
+
+.viacash .btn {
+	border: 2px solid #ff6730;
+	color: #51246f;
+	text-transform: uppercase;
+	border-radius: 2px;
+	padding: 8px 35px;
+	font-size: .8em;
+}
+
+.viacash .btn:hover {
+	background-color: #ff6730;
+}
+.viacash .product-img {
+	position: relative;
+}
+
+/* kinito */
+
+.kinito {
+	background-color: #005460;
+}
+
+.kinito .container {
+	max-width: 1150px;
+}
+
+.kinito .key-word {
+	color: #ff6b2d;
+	text-transform: uppercase;
+}
+
+.kinito .product-name {
+	color: white;
+	font-size: 4rem;
+	padding-bottom: 8vh;
+}
+
+.kinito .product-description {
+	color: white;
+	font-size: 1em;
+	font-weight: 300;
+	padding-bottom: 5vh;
+}
+
+.kinito .btn {
+	border: 2px solid #ff6b2d;
+	color: white;
+	text-transform: uppercase;
+	border-radius: 2px;
+	padding: 8px 35px;
+	font-size: .8em;
+}
+
+.kinito .btn:hover {
+	background-color: #ff6b2d;
+}
+.kinito .product-img {
+	position: relative;
+}
+
+/* messagetemplates */
+
+.messagetemplates {
+	background-color: #383838;
+}
+
+.messagetemplates .container {
+	max-width: 1150px;
+}
+
+.messagetemplates .key-word {
+	color: white;
+	text-transform: uppercase;
+}
+
+.messagetemplates .product-name {
+	color: white;
+	font-size: 4rem;
+	padding-bottom: 8vh;
+}
+
+.messagetemplates .product-description {
+	color: white;
+	font-size: 1em;
+	font-weight: 300;
+	padding-bottom: 5vh;
+}
+
+.messagetemplates .btn {
+	border: 2px solid white;
+	color: white;
+	text-transform: uppercase;
+	border-radius: 2px;
+	padding: 8px 35px;
+	font-size: .8em;
+}
+
+.messagetemplates .btn:hover {
+	background-color: white;
+	color: #383838;
+}
+.messagetemplates .product-img {
+	position: relative;
+}
+
+.card {
+	border: transparent;
+}
+/* messagetemplates */
+
+.via-box {
+	background: linear-gradient(270deg, #383838, #32284b, #005460, #ff6457);
+	background-size: 1000% 1000%;
+	height: 100vh;
+	padding-top: 18vh;
+
+	-webkit-animation: AnimationName 40s ease infinite;
+	-moz-animation: AnimationName 40s ease infinite;
+	animation: AnimationName 40s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+@-moz-keyframes AnimationName {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+@keyframes AnimationName {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+@-moz-keyframes AnimationName {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+@keyframes AnimationName {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.via-box .container {
+	max-width: 1150px;
+}
+
+.via-box .key-word {
+	color: white;
+	text-transform: uppercase;
+}
+
+.via-box .product-name {
+	color: white;
+	font-size: 4rem;
+	padding-bottom: 8vh;
+}
+
+.via-box .product-description {
+	color: white;
+	font-size: 1em;
+	font-weight: 300;
+	padding-bottom: 5vh;
+}
+
+.via-box .btn {
+	border: 2px solid white;
+	color: white;
+	text-transform: uppercase;
+	border-radius: 2px;
+	padding: 8px 35px;
+	font-size: .8em;
+}
+
+.via-box .btn:hover {
+	background-color: white;
+	color: #383838;
+}
+.via-box .product-img {
+	position: relative;
+}
+
+@media only screen and (max-width: 1500px) {
+	/* botik */
+
+	.botik .product-img {
+		width: 1120px;
+		height: 706.89px;
+	}
+
+	/* booya */
+
+	.booya .product-img {
+		width: 1120px;
+		height: 706.89px;
+	}
+
+	/* My wallet */
+
+	.mywallet .product-img {
+		width: 1120px;
+		height: 706.89px;
+	}
+
+	/* via cash */
+
+	.viacash .product-img {
+		width: 1120px;
+		height: 706.89px;
+	}
+
+	/* Kinito */
+
+	.kinito .product-img {
+		width: 1120px;
+		height: 706.89px;
+	}
+
+	/* msg templates */
+
+	.messagetemplates .product-img {
+		width: 1120px;
+		height: 706.89px;
+	}
+
+	/* via box */
+
+	.via-box .product-img {
+		width: 1120px;
+		height: 706.89px;
+	}
+
+	.cardMessagetemplates {
+		padding-top: 0;
+	}
+}
+
+@media only screen and (max-width: 1280px) {
+	/* Botik */
+
+	.botik .product-img {
+		width: 1000px;
+		height: 631px;
+	}
+
+	/* booya */
+
+	.booya .product-img {
+		width: 1000px;
+		height: 631px;
+	}
+
+	/* My wallet */
+
+	.mywallet .product-img {
+		width: 1000px;
+		height: 631px;
+	}
+
+	/* via cash */
+
+	.viacash .product-img {
+		width: 1000px;
+		height: 631px;
+	}
+
+	/* Kinito */
+
+	.kinito .product-img {
+		width: 1000px;
+		height: 631px;
+	}
+
+	/* msg templates */
+
+	.messagetemplates .product-img {
+		width: 1000px;
+		height: 631px;
+	}
+
+	/* via box */
+
+	.via-box .product-img {
+		width: 1000px;
+		height: 631px;
+	}
+}
+
+@media only screen and (max-width: 1120px) {
+	/* Botik */
+
+	.botik .product-img {
+		width: 800px;
+		height: 505px;
+	}
+
+	/* booya */
+
+	.booya .product-img {
+		width: 800px;
+		height: 505px;
+	}
+
+	/* My wallet */
+
+	.mywallet .product-img {
+		width: 800px;
+		height: 505px;
+	}
+
+	/* via cash */
+
+	.viacash .product-img {
+		width: 800px;
+		height: 505px;
+	}
+
+	/* Kinito */
+
+	.kinito .product-img {
+		width: 800px;
+		height: 505px;
+	}
+
+	/* msg templates */
+
+	.messagetemplates .product-img {
+		width: 800px;
+		height: 505px;
+	}
+
+	/* via box */
+
+	.via-box .product-img {
+		width: 800px;
+		height: 505px;
+	}
+}
+
+@media only screen and (max-width: 990px) {
+	/* Botik */
+
+	.botik .product-img {
+		width: 700px;
+		height: 442px;
+	}
+
+	.botik .img-parent {
+		padding-left: 30vh;
+	}
+
+	.botik .txt-parent {
+		padding-right: 40vh;
+	}
+
+	/* booya */
+
+	.booya .product-img {
+		width: 700px;
+		height: 442px;
+	}
+
+	.booya .img-parent {
+		padding-left: 30vh;
+	}
+
+	.booya .txt-parent {
+		padding-right: 40vh;
+	}
+
+	/* My wallet */
+
+	.mywallet .product-img {
+		width: 700px;
+		height: 442px;
+	}
+
+	.mywallet .img-parent {
+		padding-left: 30vh;
+	}
+
+	.mywallet .txt-parent {
+		padding-right: 40vh;
+	}
+
+	/* via cash */
+
+	.viacash .product-img {
+		width: 700px;
+		height: 442px;
+	}
+
+	.viacash .img-parent {
+		padding-left: 30vh;
+	}
+
+	.viacash .txt-parent {
+		padding-right: 40vh;
+	}
+
+	/* Kinito */
+
+	.kinito .product-img {
+		width: 700px;
+		height: 442px;
+	}
+
+	.kinito .img-parent {
+		padding-left: 30vh;
+	}
+
+	.kinito .txt-parent {
+		padding-right: 40vh;
+	}
+
+	/* msg templates */
+
+	.messagetemplates .product-img {
+		width: 700px;
+		height: 442px;
+	}
+
+	.messagetemplates .img-parent {
+		padding-left: 30vh;
+	}
+
+	.messagetemplates .product-description {
+		padding-right: 40vh;
+	}
+
+	/* via box */
+
+	.via-box .product-img {
+		width: 700px;
+		height: 442px;
+	}
+
+	.via-box .img-parent {
+		padding-left: 30vh;
+	}
+
+	.via-box .txt-parent {
+		padding-right: 40vh;
+	}
+}
+
+@media only screen and (max-width: 770px) {
+	.iPadPad {
+		padding-left: 5vw;
+	}
+	/* Botik */
+
+	.botik .product-img {
+		display: none;
+	}
+
+	.botik .txt-parent {
+		padding-right: 10vh;
+		padding-left: 10vh;
+	}
+
+	/* booya */
+
+	.booya .product-img {
+		display: none;
+	}
+
+	.booya .txt-parent {
+		padding-right: 10vh;
+		padding-left: 10vh;
+	}
+
+	/* My wallet */
+
+	.mywallet .product-img {
+		display: none;
+	}
+
+	.mywallet .txt-parent {
+		padding-right: 10vh;
+		padding-left: 10vh;
+	}
+
+	/* via cash */
+
+	.viacash .product-img {
+		display: none;
+	}
+
+	.viacash .txt-parent {
+		padding-right: 10vh;
+		padding-left: 10vh;
+	}
+
+	/* Kinito */
+
+	.kinito .product-img {
+		display: none;
+	}
+
+	.kinito .txt-parent {
+		padding-right: 10vh;
+		padding-left: 10vh;
+	}
+
+	/* msg templates */
+
+	.messagetemplates .product-img {
+		display: none;
+	}
+
+	.messagetemplates .txt-parent {
+		padding-right: 10vh;
+		padding-left: 10vh;
+	}
+
+	.messagetemplates .product-description {
+		padding-right: 0px;
+	}
+
+	/* via box */
+
+	.via-box .product-img {
+		display: none;
+	}
+
+	.via-box .txt-parent {
+		padding-right: 10vh;
+		padding-left: 10vh;
+	}
+}
+
+@media only screen and (max-width: 550px) {
+	.headline {
+		font-size: 4em;
+	}
+
+	.sub-headline {
+		font-size: 1em;
+		margin-left: 10vw;
+	}
+
+	.mywallet .product-name {
+		font-size: 3em;
+	}
+
+	.messagetemplates .product-name {
+		font-size: 3em;
+	}
+
+	footer {
+		height: auto;
+	}
+
+	.snap-child {
+		scroll-snap-align: none;
+	}
+
+	.snap-head {
+		scroll-snap-align: none;
+	}
+
+	.snap-footer {
+		scroll-snap-align: none;
+	}
+
+	/* botik */
+
+	.botik .txt-parent {
+		padding-right: 5vw;
+		padding-left: 5vw;
+	}
+
+	/* booya */
+
+	.booya .txt-parent {
+		padding-right: 5vw;
+		padding-left: 5vw;
+	}
+
+	/* My wallet */
+
+	.mywallet .txt-parent {
+		padding-right: 5vw;
+		padding-left: 5vw;
+	}
+
+	/* via cash */
+
+	.viacash .txt-parent {
+		padding-right: 5vw;
+		padding-left: 5vw;
+	}
+
+	/* Kinito */
+
+	.kinito .txt-parent {
+		padding-right: 5vw;
+		padding-left: 5vw;
+	}
+
+	/* msg templates */
+
+	.messagetemplates .txt-parent {
+		padding-right: 5vw;
+		padding-left: 5vw;
+	}
+
+	.messagetemplates .product-description {
+		padding-right: 0px;
+	}
+
+	/* via box */
+
+	.via-box .txt-parent {
+		padding-right: 5vw;
+		padding-left: 5vw;
+	}
+}
+
+@media only screen and (max-width: 380px) {
+	.headline {
+		font-size: 3em;
+	}
+}

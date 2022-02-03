@@ -1,0 +1,313 @@
+/* Contact page */
+
+body {
+	max-width: 100%;
+	overflow-x: hidden;
+}
+
+#continueTop {
+	margin-top: 10vh;
+}
+
+#continueBot {
+	margin-top: 12vh;
+}
+
+.contact_headline {
+	margin-top: 100px;
+	font-size: 6rem;
+	font-weight: 800;
+	color: white;
+	line-height: .95;
+}
+
+.contact_headline_orange {
+	color: #ed3f25;
+	font-weight: 800;
+	text-decoration: underline;
+	line-height: 1.1;
+}
+
+.contact_nav {
+	background-color: #212121;
+	color: white !important;
+}
+
+.contact_arrow {
+	color: #ed3f25;
+	margin-left: 550px;
+	margin-top: 50px;
+}
+
+.contact_head {
+	background-color: #212121;
+}
+
+.contact_location_title {
+	color: black;
+	font-weight: 800;
+	font-size: 70pt;
+	line-height: .7;
+	margin-bottom: 100px;
+	margin-left: 60px;
+}
+
+.contact_location_hours {
+	color: #ed3f25;
+	margin-left: 65px;
+}
+
+.contact_adress {
+	font-weight: 300;
+	margin-left: 85px;
+}
+
+.contact_location_pin {
+	margin-left: 85px;
+	margin-top: 80px;
+}
+
+.contact_image {
+	height: 600px;
+	margin-top: 125px;
+}
+
+@media only screen and (max-width: 1200px) {
+	.contact_image {
+		height: 550px;
+	}
+
+	.contact_location_hours {
+		margin-left: 75px;
+	}
+
+	.contact_location_title {
+		margin-left: 70px;
+	}
+
+	.contact_mozambique .contact_location_hours {
+		margin-left: 5px;
+	}
+
+	.contact_mozambique .contact_location_title {
+		margin-left: 0px;
+	}
+}
+
+@media only screen and (max-width: 995px) {
+	.contact_image {
+		display: none;
+	}
+
+	.contact_location_hours {
+		margin-left: 0;
+	}
+
+	.contact_location_title {
+		margin-left: 0;
+	}
+}
+
+/* Portugal */
+
+.contact_portugal {
+	margin-top: 100px;
+	background-image: url("background_Images/portugal.png");
+	background-repeat: no-repeat;
+	height: 100vh;
+	background-position: right;
+}
+
+.contact_portugal_content {
+	margin-top: 100px;
+}
+
+/* Mozambique */
+
+.contact_mozambique {
+	margin-top: 100px;
+	background-image: url("background_Images/Mozambique.png");
+	background-repeat: no-repeat;
+	height: 100vh;
+	background-position: left;
+}
+
+.contact_mozambique_content {
+	margin-top: 100px;
+}
+
+/* Brazil */
+
+.contact_brazil {
+	margin-top: 100px;
+	background-image: url("background_Images/Brazil.png");
+	background-repeat: no-repeat;
+	height: 100vh;
+	background-position: right;
+}
+
+.contact_brazil_content {
+	margin-top: 100px;
+}
+
+/* Colombia */
+
+.contact_colombia {
+	margin-top: 100px;
+	background-image: url("background_Images/Colombia.png");
+	background-repeat: no-repeat;
+	height: 100vh;
+	background-position: left;
+}
+
+.contact_colombia_content {
+	margin-top: 100px;
+}
+
+@media only screen and (max-width: 995px) {
+	.contact_portugal {
+		background-position: center;
+	}
+
+	.contact_mozambique {
+		background-position: center;
+	}
+
+	.contact_brazil {
+		background-position: center;
+	}
+
+	.contact_colombia {
+		background-position: center;
+	}
+}
+
+@media only screen and (max-width: 995px) {
+	.contact_portugal {
+		background-size: 55%;
+	}
+
+	.contact_mozambique {
+		background-size: 70%;
+	}
+
+	.contact_brazil {
+		background-size: 90%;
+	}
+
+	.contact_colombia {
+		background-size: 80%;
+	}
+}
+
+@media only screen and (max-width: 550px) {
+	.contact_headline {
+		font-size: 3.2em;
+		margin-top: 18vh;
+	}
+
+	.contact_location_title {
+		font-size: 3em;
+		margin-left: 3vw;
+	}
+
+	.contact_location_hours {
+		margin-left: 3vw;
+	}
+
+	.contact_portugal {
+		padding-top: 5vh;
+		margin-top: 0;
+		height: 100vh;
+	}
+
+	.contact_mozambique {
+		padding-top: 5vh;
+		margin-top: 0;
+		height: 100vh;
+	}
+
+	.contact_brazil {
+		padding-top: 5vh;
+		margin-top: 0;
+		height: 100vh;
+	}
+
+	.contact_colombia {
+		padding-top: 5vh;
+		margin-top: 0;
+		height: 100vh;
+	}
+
+	.contact_adress {
+		margin-left: 3vw;
+	}
+
+	.contact_portugal .contact_location_pin {
+		margin-top: 10vh;
+		margin-left: 5vw;
+	}
+
+	.contact_mozambique .contact_location_pin {
+		margin-top: 10vh;
+		margin-left: 5vw;
+	}
+
+	.contact_brazil .contact_location_pin {
+		margin-top: 10vh;
+		margin-left: 5vw;
+	}
+
+	.contact_colombia .contact_location_pin {
+		margin-top: 10vh;
+		margin-left: 5vw;
+	}
+}
+
+@media only screen and (max-width: 360px) {
+	.contact_headline {
+		font-size: 2.5em;
+		margin-top: 15vh;
+	}
+
+	.contact_location_title {
+		font-size: 3em;
+		margin-left: 3vw;
+	}
+
+	.contact_location_hours {
+		margin-left: 3vw;
+	}
+
+	.contact_portugal {
+		padding-top: 5vh;
+		margin-top: 0;
+		height: 100vh;
+	}
+
+	.contact_mozambique {
+		padding-top: 5vh;
+		margin-top: 0;
+		height: 100vh;
+	}
+
+	.contact_brazil {
+		padding-top: 5vh;
+		margin-top: 0;
+		height: 100vh;
+	}
+
+	.contact_colombia {
+		padding-top: 5vh;
+		margin-top: 0;
+		height: 100vh;
+	}
+
+	.contact_adress {
+		margin-left: 3vw;
+	}
+
+	.contact_location_title {
+		font-size: 2.8em;
+	}
+}

@@ -1,0 +1,243 @@
+#via-logo {
+	fill: white;
+}
+
+body {
+	max-width: 100%;
+	overflow-x: hidden;
+}
+
+header {
+	background-color: #51246f;
+	background-repeat: no-repeat;
+	background-image: url(background_images/viaCash/mainBody@2x.png);
+	background-size: cover;
+}
+
+header.snap-head {
+	height: 100vh;
+}
+
+.snap-child.mainContent {
+	scroll-snap-align: start;
+	scroll-margin-bottom: 80vh;
+}
+
+.navbar {
+	background-color: transparent;
+}
+
+.title {
+	margin-top: 25vh;
+}
+
+#continueTop {
+	margin-top: 30vh;
+}
+
+#continueBot {
+	margin-top: 32vh;
+}
+
+.number {
+	color: #ff6730;
+	font-weight: 200;
+}
+
+.mainContent {
+	background-color: #51246f;
+	height: 350vh;
+	background-image: url(background_images/viaCash/mainBody@2x.png);
+	background-size: cover;
+	background-position-y: -100vh;
+	background-repeat: no-repeat;
+}
+
+.mainContent p {
+	color: white;
+}
+
+.one {
+	padding-top: 15vh;
+}
+
+.subHeader {
+	font-weight: 600;
+	font-size: 2em;
+	padding-right: 30vw;
+	margin-bottom: 30vh;
+}
+
+.two {
+	position: relative;
+}
+
+.two img {
+	position: absolute;
+	height: 110%;
+	top: -4vh;
+	left: 30vw;
+}
+
+.two p {
+	margin-left: 28vw;
+	margin-bottom: 14vh;
+	margin-right: 17vw;
+	font-weight: 100;
+}
+
+.three {
+	margin-top: 40vh;
+}
+
+.three h2 {
+	text-transform: uppercase;
+	color: white;
+	font-weight: 600;
+	font-size: 1.4em;
+	margin-bottom: 10vh;
+}
+
+.three ul {
+	color: white;
+}
+
+.three li {
+	margin-bottom: 8vh;
+	padding-right: 2vw;
+	font-weight: 100;
+}
+
+.three img {
+	width: 70%;
+}
+
+.three .row h2 {
+	margin-bottom: 5vh;
+	margin-left: 1.5vw;
+}
+
+.three .row h2::before {
+	content: "\2022";
+	color: #ff6730;
+	font-weight: bold;
+	display: inline-block;
+	width: 1em;
+	margin-left: -1em;
+}
+
+.four {
+	margin-top: 20vh;
+}
+
+.four h2 {
+	text-transform: uppercase;
+	color: white;
+	font-weight: 600;
+	font-size: 1.4em;
+	margin-bottom: 15vh;
+}
+
+.four img {
+	width: 60%;
+	display: block;
+	margin: auto;
+	margin-bottom: 4vh;
+}
+
+.four .row {
+	margin-right: 10vw;
+}
+
+/* @media only screen and (min-width: 415px) {
+	.mainContent {
+		height: 380vh;
+	}
+} */
+
+@media only screen and (max-width: 550px) {
+	body {
+		max-width: 100%;
+		overflow-x: hidden;
+	}
+
+	.snap-head {
+		scroll-snap-align: none;
+	}
+
+	.snap-child.mainContent {
+		scroll-snap-align: none;
+	}
+
+	h2 {
+		margin-left: 5vw;
+		font-size: 1.3em;
+	}
+
+	.mainContent {
+		height: 420vh;
+		background-image: none;
+	}
+
+	.title {
+		padding: 0 5vw;
+		margin-top: 15vh;
+	}
+
+	.continue {
+		margin-top: 35vh;
+	}
+
+	.subHeader {
+		padding-right: 0;
+		font-size: 1em;
+		margin-bottom: 15vh;
+	}
+
+	.two img {
+		height: 110%;
+		left: 5vw;
+		top: -3vh;
+	}
+
+	.two p {
+		font-size: .8em;
+		margin-bottom: 10vh;
+		margin-right: 5vw;
+	}
+
+	.three {
+		margin-top: 30vh;
+	}
+
+	.three .row h2 {
+		margin-left: 8vw;
+	}
+
+	.three ul {
+		font-size: .8em;
+		margin-left: 5vw;
+	}
+
+	.three img {
+		width: 70%;
+		display: block;
+		margin: auto;
+	}
+
+	.four img {
+		width: 40%;
+	}
+
+	.four .row {
+		margin: 0;
+	}
+
+	.four p {
+		margin-bottom: 8vh;
+	}
+
+	.navbar-dark .navbar-toggler {
+		border-color: transparent;
+	}
+}

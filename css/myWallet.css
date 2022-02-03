@@ -1,0 +1,330 @@
+#via-logo {
+	fill: white;
+}
+
+body {
+	max-width: 100%;
+	overflow-x: hidden;
+}
+
+header {
+	background-color: #1e2240;
+	background-image: url(background_Images/myWallet/Intersection\ 1.png);
+
+	background-position-y: -80vh;
+	background-position-x: -3vw;
+	background-repeat: no-repeat;
+}
+
+header.snap-head {
+	height: 150vh;
+}
+
+.snap-child.mainContent {
+	scroll-snap-align: start;
+	scroll-margin-bottom: 80vh;
+	scroll-margin-top: 20vh;
+}
+
+.navbar {
+	background-color: transparent;
+}
+
+.title {
+	margin-top: 25vh;
+}
+
+#continueTop {
+	margin-top: 26vh;
+}
+
+#continueBot {
+	margin-top: 28vh;
+}
+
+.mainContent {
+	background-color: #1e2240;
+	height: 980vh;
+}
+
+.mainContent img {
+	width: 100%;
+}
+
+.mainContent h1 {
+	text-transform: uppercase;
+	color: white;
+	font-size: 1.7em;
+	margin-bottom: 3vh;
+}
+
+.mainContent h2 {
+	color: white;
+	padding-bottom: 5vh;
+}
+
+.mainContent li {
+	color: white;
+	margin-left: 3vw;
+	font-weight: 200;
+	padding-bottom: 1vh;
+	font-size: 1.1em;
+}
+
+.mainContent p {
+	color: white;
+	font-weight: 100;
+	padding-right: 8vw;
+	margin-left: 2vw;
+}
+
+.number {
+	color: #5046d9;
+	font-weight: 200;
+	font-size: .6em;
+}
+
+.one .textRight {
+	margin-top: 30vh;
+}
+
+.mainContent .purple {
+	color: #5046d9;
+	font-weight: 400;
+	font-size: 1.2em;
+}
+
+.two .svgBackground {
+	position: absolute;
+	top: -20vh;
+}
+
+.two {
+	position: relative;
+	padding-top: 10vh;
+}
+
+.middle {
+	padding-top: 15vh;
+}
+
+.right {
+	padding-top: 27vh;
+}
+
+.three {
+	margin-top: 20vh;
+}
+
+.three ul li::before {
+	content: "\2022";
+	color: #5046d9;
+	font-weight: bold;
+	display: inline-block;
+	width: 1em;
+	margin-left: -1em;
+}
+
+.four {
+	position: relative;
+	margin-top: 25vh;
+	overflow-x: hidden;
+}
+
+.four h1 {
+	margin-left: 5vw;
+	margin-bottom: 0vh;
+}
+
+.four .svgBackground {
+	position: absolute;
+	right: 0px;
+	top: 60vh;
+}
+
+.five {
+	margin-top: 10vh;
+}
+
+.five h1 {
+	margin-left: 15vw;
+}
+
+.five p {
+	margin-left: 20vw;
+	padding-right: 53vw;
+	line-height: 1.8;
+	font-size: 1.1em;
+	margin-bottom: 10vh;
+}
+
+.five h1::before {
+	content: "\2022";
+	color: #5046d9;
+	font-weight: bold;
+	display: inline-block;
+	width: 1em;
+	margin-left: -1em;
+}
+
+.six {
+	position: relative;
+}
+
+.six .svgBackground {
+	position: absolute;
+	right: 15vw;
+}
+
+.seven {
+	margin-top: 10vh;
+}
+
+.seven h1 {
+	margin-left: 15vw;
+}
+
+.seven p {
+	margin-left: 20vw;
+	padding-right: 53vw;
+	line-height: 1.8;
+	font-size: 1.1em;
+	margin-bottom: 10vh;
+}
+
+.seven h1::before {
+	content: "\2022";
+	color: #5046d9;
+	font-weight: bold;
+	display: inline-block;
+	width: 1em;
+	margin-left: -1em;
+}
+
+.eight {
+	position: relative;
+	padding-bottom: 20vh;
+}
+
+.eight .svgBackground {
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+}
+
+.mockupLeft {
+	padding-left: 5.8vw;
+	padding-bottom: 5vh;
+}
+
+.mockupRight {
+	padding-right: 5.8vw;
+	padding-top: 5vh;
+}
+
+.nine {
+	margin-top: 30vh;
+}
+
+.nine h1 {
+	margin-bottom: 10vh;
+}
+
+.nine img {
+	width: 8vw;
+	display: block;
+	margin: auto;
+	margin-bottom: 4vh;
+}
+
+.nine p {
+	padding: 0 5vw;
+	margin-left: 0vw;
+	margin-bottom: 15vh;
+}
+
+.nine .bottom-row {
+	padding-left: 8vw;
+	padding-right: 8vw;
+}
+
+.bottom-row p {
+	padding: 0 5vw;
+}
+
+@media only screen and (max-width: 550px) {
+	.snap-child {
+		scroll-snap-align: start;
+		scroll-margin-bottom: 10vh;
+	}
+
+	.snap-child.mainContent {
+		scroll-snap-align: start;
+		scroll-margin-bottom: 80vh;
+		scroll-margin-top: 0vh;
+	}
+
+	.snap-head {
+		scroll-snap-align: start;
+	}
+
+	.snap-footer {
+		scroll-snap-align: start;
+		scroll-margin-bottom: 50vh;
+	}
+
+	.svgBackground {
+		display: none;
+	}
+
+	header {
+		background-position-y: -80vh;
+		background-position-x: -60vw;
+	}
+
+	header.snap-head {
+		height: 100vh;
+	}
+
+	.title {
+		margin-top: 15vh;
+		padding: 0 5vw;
+	}
+
+	.continue {
+		margin-top: 20vh;
+	}
+
+	.mainContent {
+		height: auto;
+	}
+
+	.mainContent p {
+		padding: 0 0vw;
+		margin-left: 0;
+	}
+
+	.one {
+		padding-top: 10vh;
+	}
+
+	.one .textRight {
+		margin-top: 10vh;
+	}
+
+	.five p {
+		padding: 0 5vw;
+	}
+
+	.seven p {
+		padding: 0 5vw;
+	}
+
+	.nine {
+		margin-top: 0;
+	}
+
+	.nine img {
+		width: 40vw;
+	}
+}

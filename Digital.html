@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/mobileHamburger.css">
+
+    <link rel="stylesheet" href="css/digitalsolutions.css">
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <link rel="icon" type="image/png" href="Images/favicon-32x32.png" sizes="32x32" />
+
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>VIA | Digital</title>
+</head>
+
+<body>
+
+  <div class="snap-parent">
+    
+    <!-- navbar section -->
+
+    <nav class="navbar navbar-expand-lg fixed-top navbar-light" id="nav-color">
+        <a class="navbar-brand" href="mainPage.html">
+            <svg class="via-svg" height="40" id="via-logo" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1314.24 509.74"><path class="cls-1" d="M657,0a93,93,0,0,0-93,93V352.77L728.87,151.86h0A93,93,0,0,0,657,0Z"/><path class="cls-1" d="M657,509.74a93,93,0,0,0,93-93V157L585,357.87h0A93,93,0,0,0,657,509.74Z"/><path class="cls-1" d="M1066.18,401.76c12.33-10.75,25.68-22.38,40.24-34.94,38-32.77,76.48-49.39,114.41-49.39a133,133,0,0,1,66,17.81L1146.42,63.42l-.23.23-6.56-13.34a89.78,89.78,0,0,0-160.19-2.14l-1.21,2.31L838.94,320.21l-29.62,57.4a89.79,89.79,0,0,0,79.16,132.13C942.23,509.74,976,480.34,1066.18,401.76Z"/><path class="cls-1" d="M1247.11,339c-.92-.2-1.79-.44-2.73-.62s-1.94-.29-2.91-.44c-1.91-.3-3.82-.6-5.81-.8-3.31-.32-6.7-.53-10.22-.53-32.88,0-68.4,15.48-105.58,46-14.49,12.51-27.79,24.09-40.07,34.79-51.1,44.52-85.53,74.51-116.62,92.36h264.56A86.48,86.48,0,0,0,1247.11,339Z"/><path class="cls-1" d="M93.41,192.31a133.07,133.07,0,0,1-66-17.81L167.83,446.32l.22-.24,6.56,13.35a89.78,89.78,0,0,0,160.19,2.14l1.21-2.31L475.3,189.53l29.63-57.4A89.79,89.79,0,0,0,425.76,0C372,0,338.26,29.4,248.07,108c-12.34,10.75-25.69,22.38-40.25,34.94C169.83,175.69,131.34,192.31,93.41,192.31Z"/><path class="cls-1" d="M0,86.51a86.49,86.49,0,0,0,67.14,84.26c.91.2,1.79.44,2.72.62s1.94.28,2.91.44c1.91.3,3.82.6,5.81.79,3.31.33,6.71.54,10.23.54,32.88,0,68.4-15.49,105.57-46,14.49-12.5,27.79-24.08,40.07-34.78C285.55,47.84,320,17.85,351.07,0H86.51A86.51,86.51,0,0,0,0,86.51Z"/></svg>
+        </a>
+      
+        <button onclick="darkFunctionDigital()" class="navbar-toggler togglerDefault" id="togglerBtn" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="34.141" height="13" viewBox="0 0 34.141 13">
+                    <g id="Group_2" data-name="Group 2" transform="translate(-831.344 170.495)">
+                      <path id="Path_2221" data-name="Path 2221" d="M832.844-168.995h31.141" fill="none" stroke-linecap="round" stroke-width="3"/>
+                      <path id="Path_2222" data-name="Path 2222" d="M832.844-168.995h18.4" transform="translate(12.737 10)" fill="none" stroke-linecap="round" stroke-width="3"/>
+                    </g>
+                  </svg>
+            </span>
+        </button>
+
+        <div class="collapse navbar-collapse justify-content-stretch" id="navbarNav">
+            <ul class="navbar-nav ml-auto" id="nav-swap">
+                <li class="nav-item px-3">
+                <a class="nav-link"   href="mainPage.html">SOBRE</a>
+                </li>
+                <li class="nav-item px-3">
+                <a class="nav-link current"  id="activeSwap" href="Digital.html">DIGITAL</a>
+                </li>
+                <li class="nav-item px-3">
+                <a class="nav-link" href="itServices.html">IT SERVICES</a>
+                </li>
+                <li class="nav-item px-3">
+                <a class="nav-link" href="Carreiras.html">CARREIRAS</a>
+                </li>
+                <li class="nav-item px-3">
+                    <a class="nav-link" href="Contacto.html">CONTACTO</a>
+                </li>
+
+                    <!-- Drop down language menu -->
+
+                    <li class="nav-item dropdown px-3">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            PT
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" id="nav-swap" href="Digital_eng.html">ENG</a>
+                        <a class="dropdown-item" id="nav-swap" href="#">ES</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+
+    <!-- header section -->
+
+    <header class="snap-child watchScroll" id="mainPage" data-classLogo="via-svg" data-classNav="navbar-default" data-togglerBtn="togglerDefault">
+      <div class="container d-flex justify-content-start p-5">
+        <h1 class="headline" id="headline_1">Digital<br>solutions</h1>
+      </div>
+
+      <div class="container d-flex justify-content-start p-3">
+        <p class="sub-headline">A 360° mobility vision for your digital strategy. We help brands accelarate <br>digital transformation through desktop and mobility solutions.</p>
+      </div>
+
+
+        <!-- <a href="#Botik">
+            <svg class="hexagon" xmlns="http://www.w3.org/2000/svg" width="162" height="186" viewBox="0 0 162 186">
+                <g id="Polygon_1" data-name="Polygon 1" transform="translate(162) rotate(90)">
+                    <path d="M 138.9208679199219 161 L 47.07897186279297 161 L 1.153068780899048 81 L 47.07901763916016 1 L 138.9208679199219 1 L 184.846923828125 81 L 138.9208679199219 161 Z" stroke="none"/>
+                    <path d="M 47.65798950195312 2 L 2.306121826171875 81 L 47.65794372558594 160 L 138.3418884277344 160 L 183.6938781738281 81 L 138.3418884277344 2 L 47.65798950195312 2 M 46.50003051757812 0 L 139.4998474121094 0 L 186 81 L 139.4998474121094 162 L 46.49996948242188 162 L 0 81 L 46.50003051757812 0 Z" stroke="none" fill="#212121"/>
+                </g>
+                <text id="Botik" transform="translate(38.429 92.876)" font-size="32" font-family="WorkSans-Regular_ExtraBold, Work Sans"><tspan x="0" y="0">Botik</tspan></text>
+                <text id="_KEYWORD" data-name="#KEYWORD" transform="translate(22.429 113.876)" font-size="20" font-family="WorkSans-Regular_ExtraBold, Work Sans"><tspan x="0" y="0">#KEYWORD</tspan></text>
+            </svg>
+        </a> -->
+
+        
+    
+
+      <!-- <div class="cardSection">
+        <div class="row">
+            <div class="col-2">
+                <a class="card cardBotik" href="#Botik">
+                    <div class="card-body">
+                        <h5 class="card-title">Botik</h5>
+                        <p class="card-text">#keyword</p>
+                    </div>
+                </a>
+            </div>
+
+            <div class="col-2">
+                <a class="card cardBooya" href="#Booya">
+                    <div class="card-body">
+                        <h5 class="card-title">Booya</h5>
+                        <p class="card-text">#keyword</p>
+                    </div>
+                </a>
+            </div>
+
+            <div class="col-2">
+                <a class="card cardMywallet" href="#MyWallet">
+                    <div class="card-body">
+                        <h5 class="card-title">My Wallet</h5>
+                        <p class="card-text">#keyword</p>
+                    </div>
+                </a>
+            </div>
+        
+            <div class="col-2">
+                <a class="card cardViacash" href="#ViaCash">
+                    <div class="card-body">
+                        <h5 class="card-title">Via Cash</h5>
+                        <p class="card-text">#keyword</p>
+                    </div>
+                </a>
+            </div>
+
+            <div class="col-2 ">
+                <a class="card cardKinito" href="#Kinito">
+                    <div class="card-body">
+                        <h5 class="card-title">Kinito</h5>
+                        <p class="card-text">#keyword</p>
+                    </div>
+                </a>
+            </div>
+
+            <div class="col-2">
+                <a class="card cardMessagetemplates" href="#MessageTemplates">
+                    <div class="card-body">
+                        <h5 class="card-title">Message Templates</h5>
+                        <p class="card-text">#keyword</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+      </div> -->
+    </header>
+
+    
+    
+    <!-- product section -->
+
+    <article class="snap-child botik" id="Botik" data-classLogo="via-svg-Botik" data-classNav="navbar-none" data-togglerBtn="togglerBotik">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-lg-5 col-xl-3 txt-parent">
+                    <h6 class="key-word">#palavrachave</h6>
+                    <h1 class="product-name">Botik</h2>
+                    <p class="product-description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus voluptas sit vitae delectus adipisci quam. Expedita est nam dolorum dolore?</p>
+                    <a type="button" class="btn btn-outline-light" href="botik.html">Explore</a>
+                </div>
+                <div class="col-md-12 col-lg-5 col-xl-9 img-parent">
+                    <img class="product-img" src="images/Digital solutions/botik_digital.png">
+                </div>
+            </div>
+        </div>
+    </article>
+
+    <article class="snap-child booya" id="Booya" data-classLogo="via-svg-booya" data-classNav="navbar-none" data-togglerBtn="togglerBooya">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-lg-5 col-xl-3 txt-parent">
+                    <h6 class="key-word">#palavrachave</h6>
+                    <h1 class="product-name">Booya</h2>
+                    <p class="product-description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus voluptas sit vitae delectus adipisci quam. Expedita est nam dolorum dolore?</p>
+                    <a type="button" class="btn btn-outline-light" href="booya.html">Explore</a>
+                </div>
+                <div class="col-md-12 col-lg-5 col-xl-9 img-parent">
+                    <img class="product-img" src="images/Digital solutions/booya_digital.png">
+                </div>
+            </div>
+        </div>
+    </article>
+
+    <article class="snap-child mywallet" id="MyWallet" data-classLogo="via-svg-mywallet" data-classNav="navbar-none" data-togglerBtn="togglerMywallet" >
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-lg-5 col-xl-3 txt-parent">
+                    <h6 class="key-word">#palavrachave</h6>
+                    <h1 class="product-name">Mywallet</h2>
+                    <p class="product-description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus voluptas sit vitae delectus adipisci quam. Expedita est nam dolorum dolore?</p>
+                    <a type="button" class="btn btn-outline-light" href="myWallet.html">Explore</a>
+                </div>
+                <div class="col-md-12 col-lg-5 col-xl-9 img-parent">
+                    <img class="product-img" src="images/Digital solutions/mywallet_digital.png">
+                </div>
+            </div>
+        </div>
+    </article>
+
+    <article class="snap-child viacash" id="ViaCash" data-classLogo="via-svg-viacash" data-classNav="navbar-none" data-togglerBtn="togglerViacash">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-lg-5 col-xl-3 txt-parent">
+                    <h6 class="key-word">#palavrachave</h6>
+                    <h1 class="product-name">Viacash</h2>
+                    <p class="product-description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus voluptas sit vitae delectus adipisci quam. Expedita est nam dolorum dolore?</p>
+                    <a type="button" class="btn btn-outline-light" href="Viacash.html">Explore</a>
+                </div>
+                <div class="col-md-12 col-lg-5 col-xl-9 img-parent">
+                    <img class="product-img" src="images/Digital solutions/viacash_digital.png">
+                </div>
+            </div>
+        </div>
+    </article>
+
+    <article class="snap-child kinito" id="Kinito" data-classLogo="via-svg-kinito" data-classNav="navbar-none" data-togglerBtn="togglerKinito">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-lg-5 col-xl-3 txt-parent">
+                    <h6 class="key-word">#palavrachave</h6>
+                    <h1 class="product-name">Kinito</h2>
+                    <p class="product-description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus voluptas sit vitae delectus adipisci quam. Expedita est nam dolorum dolore?</p>
+                    <a type="button" class="btn btn-outline-light" href="Kinito.html">Explore</a>
+                </div>
+                <div class="col-md-12 col-lg-5 col-xl-9 img-parent">
+                    <img class="product-img" src="images/Digital solutions/kinito_digital.png">
+                </div>
+            </div>
+        </div>
+    </article>
+
+    <article class="snap-child messagetemplates" id="MessageTemplates" data-classLogo="via-svg-msgtemplates" data-classNav="navbar-none" data-togglerBtn="togglerMsgtemplates">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-lg-5 col-xl-3 txt-parent">
+                    <h6 class="key-word">#palavrachave</h6>
+                    <h1 class="product-name">Message Templates</h2>
+                    <p class="product-description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus voluptas sit vitae delectus adipisci quam. Expedita est nam dolorum dolore?</p>
+                    <a type="button" class="btn btn-outline-light" href="msgTemplates.html">Explore</a>
+                </div>
+                <div class="col-md-12 col-lg-5 col-xl-9 img-parent">
+                    <img class="product-img" src="images/Digital solutions/messagetemplates_digital_2.png">
+                </div>
+            </div>
+        </div>
+    </article>
+
+    <!-- <article class="snap-child via-box" id="ViaBox" data-classLogo="via-svg-viabox" data-classNav="navbar-none" data-togglerBtn="togglerViabox">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-lg-5 col-xl-3 txt-parent">
+                    <h6 class="key-word">#palavrachave</h6>
+                    <h1 class="product-name">Via Box</h2>
+                    <p class="product-description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus voluptas sit vitae delectus adipisci quam. Expedita est nam dolorum dolore?</p>
+                    <button type="button" class="btn btn-outline-light">Explore</button>
+                </div>
+                <div class="col-md-12 col-lg-5 col-xl-9 img-parent">
+                    <video class="product-img" width="720" height="576" autoplay loop muted>
+                        <source src="#" type="video/mp4"/>
+                    </video>
+                </div>
+            </div>
+        </div>
+    </article> -->
+
+
+    <!-- Footer section -->
+
+    <footer class="snap-child" data-classLogo="via-svg-none" data-classNav="navbar-none" data-classColor="navbar-none" data-togglerBtn="togglerNone">
+
+      <div class="foot-text">
+          <div class="container text-center">
+              <p class="foot">Let's talk.</p>
+      
+              <p class="foot">Let's Work.</p>
+      
+              <p class="foot2">info@via.eu.com</p>
+          </div>
+      </div>
+
+      <div class="container">
+          <div class="row">
+                  <div class="col-6 col-md-4 col-lg iPadPad">
+                      <p class="footcol">Social</p>
+                      <div>
+                          <ul>
+                          <li>
+                              <svg class="socialmedia" xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24"><path d="M12 2c5.514 0 10 4.486 10 10s-4.486 10-10 10-10-4.486-10-10 4.486-10 10-10zm0-2c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm-2 8c0 .557-.447 1.008-1 1.008s-1-.45-1-1.008c0-.557.447-1.008 1-1.008s1 .452 1 1.008zm0 2h-2v6h2v-6zm3 0h-2v6h2v-2.861c0-1.722 2.002-1.881 2.002 0v2.861h1.998v-3.359c0-3.284-3.128-3.164-4-1.548v-1.093z"/></svg>
+                              <svg class="socialmedia" xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24"><path d="M12 2c5.514 0 10 4.486 10 10s-4.486 10-10 10-10-4.486-10-10 4.486-10 10-10zm0-2c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm-2 10h-2v2h2v6h3v-6h1.82l.18-2h-2v-.833c0-.478.096-.667.558-.667h1.442v-2.5h-2.404c-1.798 0-2.596.792-2.596 2.308v1.692z"/></svg>
+                          </li>
+                          </ul>
+                  </div>
+                  </div>
+                  <div class="col-6 col-md-4 col-lg iPadPad">
+                      <p class="footcol">Explorar</p>
+                      <div class="col">
+                          <ul>
+                              <li><a class="footer-link" href="mainPage.html">Sobre</a></li>
+                              <li><a class="footer-link" href="Digital.html">Digital</a></li>
+                              <li><a class="footer-link" href="itServices.html">IT Services</a></li>
+                              <li><a class="footer-link" href="Carreiras.html">Carreiras</a></li>
+                              <li><a class="footer-link" href="Contacto.html">Contactos</a></li>
+                          </ul>
+                  </div>
+                  </div>
+                  <div class="col-6 col-md-4 col-lg iPadPad">
+                  <p class="footcol">Novos Negocios</p>
+                  <div class="col">
+                      <ul>
+                      <li><a class="footer-link" href="#">business@via.eu.com</a></li>
+                      <li><a class="footer-link" href="#">+351 211 528 888</a></li>
+                      </ul>
+                  </div>
+                  </div>
+                  <div class="col-6 col-md-6 col-lg iPadPad">
+                  <p class="footcol">Localização</p>
+
+                  <div class="col">
+                      <ul>
+                      <li><a class="footer-link" href="Contacto.html#portugal">Portugal</a></li>
+                      <li><a class="footer-link" href="Contacto.html#mozambique">Moçambique</a></li>
+                      <li><a class="footer-link" href="Contacto.html#brazil">Brasil</a></li>
+                      <li><a class="footer-link" href="Contacto.html#colombia">Colômbia</a></li>
+                      </ul>
+                  </div>
+
+                  </div>
+                  <div class="col-12 col-md-6 col-lg iPadPad">
+                  <p class="footcol">Legal</p>
+
+                  <div class="col">
+                      <ul>
+                          <li>
+                              <a class="footer-link" href="#">Terms</a>
+                          </li>
+                          <li>
+                              <a class="footer-link" href="#">Privacy</a>
+                          </li>
+                          <li>
+                              <a class="footer-link" href="#"></a>
+                          </li>
+                          <li>
+                              <a class="footer-link" href="#">©2021 Via. All rights reserved.</a>
+                          </li>
+                      </ul>
+                  </div>
+
+                  </div>
+          </div>
+      </div>
+    </footer>
+
+  </div>
+
+</body> 
+
+
+
+
+<!-- JS, Popper.js, and jQuery -->
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="js/scroll-digital.js"></script>
+
+    <script></script>
+        
+
+</html>

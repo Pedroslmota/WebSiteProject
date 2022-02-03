@@ -1,0 +1,279 @@
+/* Carreiras */
+.career_headline {
+	margin-top: 12rem;
+	font-size: 8rem;
+	font-weight: 800;
+	color: #212121;
+	line-height: .95;
+	margin-left: 3rem;
+}
+
+.career_head {
+	height: 100vh;
+}
+
+.career_subtext {
+	font-size: 20px;
+	color: #ed3f25;
+	text-align: right !important;
+}
+
+.arrow_down {
+	margin-top: 3em;
+	padding-left: 30px;
+	margin-right: 80px;
+}
+
+.svgBackground {
+	position: absolute;
+	top: -70vh;
+	width: 100vw;
+	z-index: -1;
+}
+
+.one {
+	padding-top: 10vh;
+	position: relative;
+}
+
+.one p {
+	margin-left: 3rem;
+	margin-right: 45vw;
+	font-size: 1.6rem;
+	font-weight: 200;
+}
+
+.one b {
+	font-weight: 600;
+}
+
+.two {
+	height: 180vh;
+}
+
+.two h6 {
+	font-size: 1.6rem;
+	text-transform: uppercase;
+	color: #919191;
+	font-weight: 200;
+	margin-bottom: 55vh;
+	position: sticky;
+	top: 2vh;
+	padding-top: 45vh;
+	padding-bottom: 2vh;
+}
+
+.two h1 {
+	font-weight: 700;
+	font-size: 6rem;
+	line-height: .95;
+}
+
+.three h3 {
+	text-transform: uppercase;
+	padding-bottom: 5vh;
+	font-weight: 600;
+	font-size: 1.7rem;
+	margin-left: 2vw;
+}
+
+.three p {
+	margin-right: 2vw;
+	margin-left: 2vw;
+	color: #707070;
+	font-weight: 300;
+}
+
+.three {
+	padding-bottom: 30vh;
+}
+
+.four h1 {
+	color: #f4f4f4;
+	font-weight: 700;
+	text-transform: uppercase;
+	font-size: 12.87rem;
+	position: absolute;
+	z-index: -1;
+	top: -11vh;
+}
+
+.four h4 {
+	font-weight: 350;
+}
+
+.four {
+	position: relative;
+	padding-bottom: 30vh;
+}
+
+.five h1 {
+	font-size: 4rem;
+	font-weight: 700;
+}
+
+.five h6 {
+	display: block;
+	font-weight: 400;
+	text-transform: uppercase;
+}
+
+.five a {
+	color: #212121;
+	text-decoration: none;
+}
+
+.five {
+	margin-bottom: 30vh;
+}
+
+.arrowCareer {
+	position: absolute;
+	right: 10vw;
+	top: 1vh;
+}
+
+#arrowCircle {
+	stroke: #ea412f;
+	fill: white;
+}
+
+#arrowLine {
+	fill: #212121;
+}
+
+.job {
+	position: relative;
+	margin-bottom: 8vh;
+}
+
+.job:hover #arrowCircle {
+	fill: #ea412f;
+	transition-duration: .3s;
+}
+
+.job:hover #arrowLine {
+	fill: white;
+	transition-duration: .3s;
+}
+
+.job:hover h1 {
+	text-decoration: underline;
+}
+
+@media only screen and (max-width: 1024px) {
+	.arrow_down {
+		margin-top: 5em;
+		padding-left: 30px;
+		margin-right: 0px;
+	}
+
+	.career_headline {
+		font-size: 5rem;
+	}
+
+	.career_subtext {
+		margin-top: 3em;
+	}
+}
+
+@media only screen and (max-width: 770px) {
+	.career_headline {
+		font-size: 64pt;
+		margin-top: 150px;
+		font-weight: 800;
+		line-height: .95;
+	}
+
+	.career_subtext {
+		font-size: 17px;
+		margin-top: 5em;
+	}
+}
+
+/* Career section */
+
+.career-section {
+	height: auto;
+	padding-bottom: 10vh;
+}
+
+.career-card {
+	margin-bottom: 2vh;
+}
+.career-subtitle {
+	color: #ed3f25;
+	padding-top: 20vh;
+	padding-bottom: 200px;
+}
+
+.card-title {
+	padding-bottom: 60px;
+	font-weight: 700;
+	font-size: 30px;
+}
+
+.card-text {
+	padding-bottom: 30px;
+	font-weight: 400;
+	color: #919191;
+}
+
+.btn {
+	border: 2px solid rgba(0, 0, 0, .125);
+	color: black;
+	text-transform: uppercase;
+	border-radius: 2px;
+	padding: 8px 35px;
+	font-size: .8em;
+	display: block;
+	margin-bottom: 3vh;
+}
+
+.btn:hover {
+	color: white;
+	border: 2px solid black;
+	background-color: #ed3f25;
+	transition-duration: .3s;
+}
+
+.card {
+	height: 400px;
+}
+
+@media only screen and (max-width: 1024px) {
+	.card {
+		min-height: 545px;
+	}
+}
+
+@media only screen and (max-width: 550px) {
+	.career_headline {
+		font-size: 3.5em;
+		margin-left: 2rem;
+	}
+
+	.career-subtitle {
+		padding-top: 10vh;
+		padding-bottom: 15vh;
+		margin-left: 2rem;
+	}
+
+	.career-section {
+		height: auto;
+	}
+}
+
+@media only screen and (max-width: 400px) {
+	.career_headline {
+		font-size: 3em;
+		margin-left: 1.5rem;
+		margin-top: 10vh;
+	}
+
+	.career-subtitle {
+		padding-top: 5vh;
+		padding-bottom: 15vh;
+		margin-left: 0rem;
+	}
+}

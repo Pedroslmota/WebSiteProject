@@ -1,0 +1,445 @@
+body {
+	font-family: 'Work Sans', sans-serif !important;
+}
+
+.navbar {
+	background-color: #00d35e;
+}
+
+.msgTemp-nav {
+	background-color: #00d35e;
+}
+
+#via-logo {
+	fill: white;
+}
+
+.nav-link.navbar-msgtemplates a {
+	color: white;
+}
+
+header {
+	height: 100vh;
+	background-color: #00d35e;
+}
+
+.headerText {
+	font-size: 90pt;
+	margin-top: 150px;
+	font-weight: 500;
+	line-height: .95;
+	color: white;
+}
+
+#continueTop {
+	margin-top: 26vh;
+}
+
+#continueBot {
+	margin-top: 28vh;
+}
+
+article {
+	height: 100vh;
+}
+
+article.intersection {
+	padding-top: 30vh;
+	color: #919191;
+}
+
+article.intersection span {
+	color: #00d35e;
+}
+
+.intersection p {
+	margin-top: 3vh;
+	padding-right: 35vw;
+}
+
+article.financas {
+	background-color: #00d35e;
+	padding-right: 2vw;
+	padding-left: 2vw;
+}
+
+.phone {
+	height: 80%;
+	position: relative;
+	top: 10vh;
+	left: 20px;
+}
+
+/* financas */
+
+article.financas p.left {
+	color: white;
+	padding-left: 13vw;
+	padding-right: 2vw;
+	padding-top: 5vh;
+	font-size: 30pt;
+	font-weight: 200;
+	line-height: 1.3;
+}
+
+article.financas b {
+	font-weight: 700;
+}
+
+article.financas p.right {
+	color: white;
+	padding-right: 9.5vw;
+	padding-top: 60vh;
+	font-size: 15pt;
+	font-weight: 300;
+	line-height: 1.8;
+}
+
+.svgMoney {
+	position: relative;
+	left: -23vh;
+	bottom: 5vh;
+}
+
+/* pagamento */
+
+article.pagamento {
+	background-color: #03c75a;
+	padding-right: 2vw;
+	padding-left: 2vw;
+}
+
+article.pagamento p.left {
+	color: white;
+	padding-left: 12vw;
+	padding-right: 2vw;
+	padding-top: 8vh;
+	font-size: 30pt;
+	font-weight: 200;
+	line-height: 1.3;
+}
+
+article.pagamento b {
+	font-weight: 700;
+}
+
+article.pagamento p.right {
+	color: white;
+	padding-right: 9.5vw;
+	padding-top: 55vh;
+	font-size: 15pt;
+	font-weight: 300;
+	line-height: 1.8;
+}
+
+.svgCards {
+	position: relative;
+	left: -43vh;
+	bottom: 20vh;
+}
+
+/* marcacoes */
+
+article.marcacoes {
+	background-color: #00d35e;
+	padding-right: 2vw;
+	padding-left: 2vw;
+}
+
+article.marcacoes p.left {
+	color: white;
+	padding-left: 12vw;
+	padding-right: 2vw;
+	padding-top: 8vh;
+	font-size: 30pt;
+	font-weight: 200;
+	line-height: 1.3;
+}
+
+article.marcacoes b {
+	font-weight: 700;
+}
+
+article.marcacoes p.right {
+	color: white;
+	padding-right: 9.5vw;
+	padding-top: 45vh;
+	font-size: 15pt;
+	font-weight: 300;
+	line-height: 1.8;
+}
+
+.svgCalendar {
+	position: relative;
+	left: -30vh;
+	bottom: 15vh;
+}
+
+/* encomendas */
+
+article.encomendas {
+	background-color: #03c75a;
+	padding-right: 2vw;
+	padding-left: 2vw;
+}
+
+article.encomendas p.left {
+	color: white;
+	padding-left: 12vw;
+	padding-right: 2vw;
+	padding-top: 8vh;
+	font-size: 30pt;
+	font-weight: 200;
+	line-height: 1.3;
+}
+
+article.encomendas b {
+	font-weight: 700;
+}
+
+article.encomendas p.right {
+	color: white;
+	padding-right: 9.5vw;
+	padding-top: 55vh;
+	font-size: 15pt;
+	font-weight: 300;
+	line-height: 1.8;
+}
+
+.svgTruck {
+	position: relative;
+	left: -35vh;
+	bottom: -5vh;
+}
+
+/* feedback */
+
+article.feedback {
+	background-color: #00d35e;
+	padding-right: 2vw;
+	padding-left: 2vw;
+}
+
+article.feedback p.left {
+	color: white;
+	padding-left: 12vw;
+	padding-right: 2vw;
+	padding-top: 8vh;
+	font-size: 30pt;
+	font-weight: 200;
+	line-height: 1.3;
+}
+
+article.feedback b {
+	font-weight: 700;
+}
+
+article.feedback p.right {
+	color: white;
+	padding-right: 9.5vw;
+	padding-top: 55vh;
+	font-size: 15pt;
+	font-weight: 300;
+	line-height: 1.8;
+}
+
+.svgLike {
+	position: relative;
+	left: -10vh;
+	bottom: -5vh;
+}
+
+/* bilhetes */
+
+article.bilhetes {
+	background-color: #03c75a;
+	padding-right: 2vw;
+	padding-left: 2vw;
+}
+
+article.bilhetes p.left {
+	color: white;
+	padding-left: 12vw;
+	padding-right: 2vw;
+	padding-top: 8vh;
+	font-size: 30pt;
+	font-weight: 200;
+	line-height: 1.3;
+}
+
+article.bilhetes b {
+	font-weight: 700;
+}
+
+article.bilhetes p.right {
+	color: white;
+	padding-right: 9.5vw;
+	padding-top: 55vh;
+	font-size: 15pt;
+	font-weight: 300;
+	line-height: 1.8;
+}
+
+.svgBilhetes {
+	position: relative;
+	left: -30vh;
+	bottom: 10vh;
+}
+
+.slider {
+	margin-top: -11vh;
+	font-size: 20pt;
+	font-weight: 600;
+	padding: 0vh 1vw;
+}
+
+.slider a {
+	color: white;
+}
+
+@media only screen and (max-width: 550px) {
+	.snap-child {
+		scroll-snap-align: start;
+		scroll-margin-bottom: 200vh;
+	}
+
+	.phone {
+		width: 100%;
+		height: auto;
+		position: relative;
+		top: 0vh;
+		left: 20px;
+	}
+
+	.headerText {
+		font-size: 3.5em;
+	}
+
+	article.intersection {
+		padding-top: 15vh;
+		padding-right: 0;
+		height: 100vh;
+	}
+
+	.intersection p {
+		padding-right: 2vw;
+	}
+
+	.svgCards {
+		display: none;
+	}
+
+	.svgCalendar {
+		display: none;
+	}
+
+	.svgTruck {
+		display: none;
+	}
+
+	.svgBilhetes {
+		display: none;
+	}
+
+	.svgLike {
+		display: none;
+	}
+
+	.svgMoney {
+		display: none;
+	}
+
+	article {
+		height: 160vh;
+	}
+
+	article.financas p.left {
+		font-size: 2em;
+		margin-right: 0vw;
+		margin-top: 4vh;
+		margin-left: 5vw;
+		padding: 0;
+	}
+
+	article.financas p.right {
+		padding: 0;
+		margin-left: 5vw;
+	}
+
+	article.pagamento p.left {
+		font-size: 2em;
+		margin-right: 0vw;
+		margin-top: 4vh;
+		margin-left: 5vw;
+		padding: 0;
+	}
+
+	article.pagamento p.right {
+		padding: 0;
+		margin-left: 5vw;
+	}
+
+	article.pagamento {
+		height: 180vh;
+	}
+
+	article.marcacoes p.left {
+		font-size: 2em;
+		margin-right: 0vw;
+		margin-top: 4vh;
+		margin-left: 5vw;
+		padding: 0;
+	}
+
+	article.marcacoes p.right {
+		padding: 0;
+		margin-left: 5vw;
+	}
+
+	article.marcacoes {
+		height: 180vh;
+	}
+
+	article.encomendas p.left {
+		font-size: 2em;
+		margin-right: 0vw;
+		margin-top: 4vh;
+		margin-left: 5vw;
+		padding: 0;
+	}
+
+	article.encomendas p.right {
+		padding: 0;
+		margin-left: 5vw;
+	}
+
+	article.feedback p.left {
+		font-size: 2em;
+		margin-right: 0vw;
+		margin-top: 4vh;
+		margin-left: 5vw;
+		padding: 0;
+	}
+
+	article.feedback p.right {
+		padding: 0;
+		margin-left: 5vw;
+	}
+
+	article.bilhetes p.left {
+		font-size: 2em;
+		margin-right: 0vw;
+		margin-top: 4vh;
+		margin-left: 5vw;
+		padding: 0;
+	}
+
+	article.bilhetes p.right {
+		padding: 0;
+		margin-left: 5vw;
+	}
+
+	.slider {
+		margin-top: 5vh;
+	}
+}

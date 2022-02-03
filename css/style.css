@@ -1,0 +1,272 @@
+/* Base page */
+
+html {
+	scroll-behavior: smooth;
+	font-family: 'Work Sans', sans-serif;
+}
+
+body {
+	font-family: 'Work Sans', sans-serif;
+}
+
+#via-logo {
+	fill: #ed3f25;
+}
+
+header {
+	height: 100vh;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+	color: white;
+}
+
+.navbar-light .navbar-nav .nav-link {
+	color: black;
+}
+
+.navbar-nav .current {
+	text-decoration: underline;
+	font-weight: 500 !important;
+}
+
+.navbar {
+	font-size: 1rem;
+	font-weight: 700;
+	padding-top: 25px;
+}
+
+.navbar-brand {
+	padding-left: 1.5rem;
+}
+
+.navbar-brand svg {
+	height: 40px;
+}
+
+.navbar-light .navbar-toggler {
+	border-color: transparent;
+}
+
+.navbar-dark {
+	font-size: 1rem;
+	color: white;
+	font-weight: 600;
+	padding-top: 20px;
+}
+
+.nav-link:hover {
+	transition: 0.5s;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	font-weight: 400;
+}
+
+.continue {
+	position: relative;
+}
+
+#continueTop {
+	position: absolute;
+	margin-top: 6vh;
+}
+
+#continueBot {
+	position: absolute;
+	margin-top: 8vh;
+
+	animation-name: arrowAnim;
+	animation-duration: 1s;
+	animation-iteration-count: infinite;
+}
+
+@keyframes arrowAnim {
+	50% {
+		transform: translateY(4px);
+	}
+}
+
+.messageIcon {
+	position: absolute;
+	bottom: 3vh;
+	right: 3vw;
+	width: 60px;
+	height: 60px;
+}
+
+.messageIcon:hover {
+	cursor: pointer;
+}
+
+/*  FOOTER   */
+
+.footcol {
+	color: white;
+	font-weight: 700;
+	font-size: 15pt;
+	margin-bottom: 20px;
+}
+
+.snap-footer .row .col {
+	padding-left: 0px;
+	margin-bottom: 5vh;
+}
+
+.snap-footer .row {
+	margin-left: 5vw;
+}
+
+.foot-nav {
+	padding-left: 0;
+}
+
+.footer-link {
+	color: white !important;
+	font-size: 10pt;
+	font-weight: 400;
+}
+
+footer {
+	background: #212121;
+	height: 100vh;
+}
+
+.foot {
+	color: white;
+	font-weight: 900;
+	font-size: 80pt;
+	line-height: 1 !important;
+}
+
+.foot2 {
+	color: #ed3f25;
+	font-weight: 600;
+	font-size: 35pt;
+	line-height: 1 !important;
+	text-decoration: underline;
+}
+
+.foot-text {
+	padding-top: 210px;
+	padding-bottom: 15vh;
+}
+
+footer p {
+	color: white;
+}
+
+.rights {
+	padding-bottom: 5vh;
+}
+
+.socialmedia {
+	fill: #ed3f25;
+}
+
+.snap-parent {
+	scroll-snap-type: y mandatory;
+	overflow-y: scroll;
+	height: 100vh;
+}
+
+.snap-head {
+	scroll-snap-align: start;
+	scroll-margin-top: 300px;
+}
+
+.snap-footer {
+	scroll-snap-align: end;
+	/* scroll-margin-bottom: 200px; */
+}
+
+.snap-child {
+	scroll-snap-align: center;
+}
+
+@media (min-width: 1200px) {
+	.container,
+	.container-lg,
+	.container-md,
+	.container-sm,
+	.container-xl {
+		max-width: 1300px;
+	}
+}
+
+@media only screen and (max-width: 770px) {
+	.snap-head {
+		scroll-snap-align: none;
+	}
+
+	.snap-child {
+		scroll-snap-align: none;
+	}
+	.snap-footer {
+		height: auto;
+		scroll-snap-align: none;
+	}
+
+	footer {
+		height: 100vh;
+	}
+}
+
+@media only screen and (max-width: 550px) {
+	.snap-head {
+		scroll-snap-align: none;
+	}
+
+	.snap-child {
+		scroll-snap-align: none;
+	}
+	.snap-footer {
+		height: auto;
+		scroll-snap-align: none;
+	}
+
+	.navbar-brand {
+		padding-left: 0;
+	}
+
+	.navbar-brand svg {
+		height: 35px;
+	}
+
+	.foot {
+		color: white;
+		font-weight: 900;
+		line-height: 1 !important;
+		font-size: 3rem;
+	}
+
+	.foot-text {
+		padding-top: 150px;
+		padding-bottom: 150px;
+	}
+
+	.foot-nav {
+		margin-bottom: 2vh;
+		padding-left: 0vw;
+	}
+
+	.via_projects2 {
+		padding-left: 100px;
+	}
+
+	.foot2 {
+		font-size: 2em;
+	}
+
+	.messageIcon {
+		width: 45px;
+		height: 45px;
+		bottom: 3vh;
+		left: 80vw;
+	}
+
+	/* teste navbar escura  */
+}

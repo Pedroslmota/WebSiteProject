@@ -1,0 +1,258 @@
+#via-logo.via-svgWhite {
+	fill: white;
+	transition-duration: .3s;
+}
+
+#via-logo.via-svg {
+	fill: #ed3f25;
+	transition-duration: .3s;
+}
+
+#via-logo.via-svg-none {
+	display: none;
+}
+
+#nav-swap.navbar-default a {
+	color: #212121;
+}
+
+#nav-swap.navbar-white a {
+	color: white;
+}
+
+#nav-swap.navbar-none a {
+	display: none;
+}
+
+#togglerBtn.togglerDefault {
+	stroke: #ed3f25;
+}
+
+#togglerBtn.togglerWhite {
+	stroke: white;
+}
+
+#togglerBtn.togglerNone {
+	display: none;
+}
+
+.snap-head {
+	scroll-snap-align: start;
+}
+
+.snap-child {
+	height: 100vh;
+}
+
+.navbar {
+	background-color: transparent;
+}
+
+.headerContent {
+	padding: 0 8vw;
+	overflow-x: hidden;
+	max-width: 100%;
+}
+
+.headerContent img {
+	padding-top: 10vh;
+}
+
+.headerContent h1 {
+	padding-top: 25vh;
+	color: white;
+	font-weight: 700;
+	font-size: 4rem;
+	padding-left: 5vw;
+}
+
+body {
+	max-width: 100%;
+	overflow-x: hidden;
+}
+
+.keyword {
+	color: #ed3f25;
+}
+
+header {
+	background-color: #ed3f25;
+	background-image: url(background_images/IT\ Services/background\ checker.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+header img {
+	width: 100%;
+}
+
+.txt-parent {
+	padding-top: 25vh;
+}
+
+.product-name-white {
+	color: white;
+	font-size: 4rem;
+	padding-bottom: 8vh;
+	font-weight: 700;
+}
+
+.product-description-white {
+	color: white;
+	font-size: 1em;
+	font-weight: 300;
+	padding-bottom: 5vh;
+}
+
+.product-name-black {
+	color: #212121;
+	font-size: 4rem;
+	padding-bottom: 8vh;
+	font-weight: 700;
+}
+
+.product-description-black {
+	color: #212121;
+	font-size: 1em;
+	font-weight: 300;
+	padding-bottom: 5vh;
+}
+
+.btn {
+	border: 2px solid #ed3f25;
+	color: #ed3f25;
+	text-transform: uppercase;
+	border-radius: 2px;
+	padding: 8px 35px;
+	font-size: .8em;
+}
+
+.btn:hover {
+	background-color: #ed3f25;
+	border: 2px solid #ed3f25;
+	color: white;
+}
+
+.key-word {
+	color: #ed3f25;
+}
+
+.imgContainer {
+	position: absolute;
+	right: 1vw;
+	top: 25vh;
+	width: 60%;
+}
+
+section {
+	position: relative;
+}
+
+section.black {
+	background-color: #212121;
+}
+
+section.white {
+	background-color: white;
+}
+
+.PA .product-name-black {
+	font-size: 3rem;
+}
+
+.Consulting .imgContainer {
+	right: 5vw;
+	width: 50%;
+}
+
+.eCommerce .product-name-white {
+	font-size: 3.5rem;
+}
+
+.eCommerce .imgContainer {
+	top: 23vh;
+}
+@media only screen and (max-width: 770px) {
+	.snap-head {
+		scroll-snap-align: none;
+	}
+
+	.mobile {
+		display: none;
+	}
+}
+
+@media only screen and (max-width: 550px) {
+	.headerContent h1 {
+		font-size: 2.5rem;
+		padding-left: 0;
+		padding-top: 20vh;
+	}
+
+	.txt-parent {
+		padding-top: 15vh;
+	}
+
+	.product-name-white {
+		font-size: 2.5rem;
+	}
+
+	.product-name-black {
+		font-size: 2.5rem;
+	}
+
+	.eCommerce .product-name-white {
+		font-size: 2.5rem;
+	}
+
+	.PA .product-name-black {
+		font-size: 2rem;
+	}
+}
+
+@media (min-width: 1200px) {
+	.container,
+	.container-lg,
+	.container-md,
+	.container-sm,
+	.container-xl {
+		max-width: 1100px;
+	}
+}
+
+@media (max-width: 1200px) {
+	.headerContent h1 {
+		font-size: 3rem;
+		padding-top: 40vh;
+		padding-left: 3vw;
+	}
+
+	.headerContent img {
+		padding-top: 20vh;
+	}
+
+	.imgContainer {
+		position: absolute;
+		right: 1vw;
+		top: 30vh;
+		width: 70%;
+	}
+
+	.SDD .imgContainer {
+		width: 60%;
+	}
+
+	.itServices .imgContainer {
+		width: 90%;
+		top: 20vh;
+	}
+
+	.Consulting .imgContainer {
+		width: 75%;
+		right: 0;
+	}
+
+	.eCommerce .imgContainer {
+		top: 30vh;
+	}
+}

@@ -1,0 +1,173 @@
+.snap-head {
+	position: relative;
+	scroll-snap-align: start;
+}
+
+.snap-child {
+	height: auto;
+	scroll-margin-bottom: 50vh;
+	scroll-snap-align: start;
+	color: #212121;
+}
+
+.snap-footer {
+	scroll-snap-align: start;
+}
+
+footer {
+	height: 100vh;
+	scroll-margin-top: 20vh;
+}
+
+.headerContent {
+	padding: 0 8vw;
+}
+
+.headerContent svg {
+	margin-top: 15vh;
+}
+
+.headerContent h1 {
+	padding-top: 25vh;
+	color: #212121;
+	font-weight: 700;
+	font-size: 5rem;
+	padding-left: 5vw;
+}
+
+#continueTop {
+	margin-top: 20vh;
+}
+
+#continueBot {
+	margin-top: 22vh;
+}
+
+section {
+	padding-top: 30vh;
+	position: relative;
+}
+
+section.three {
+	padding-bottom: 30vh;
+}
+
+img {
+	position: absolute;
+}
+
+.background {
+	position: absolute;
+	z-index: -1;
+}
+
+.one .photo {
+	right: 0;
+	width: 35%;
+	top: 15vh;
+}
+
+.two .photo {
+	left: 0;
+	width: 40%;
+	top: 65vh;
+}
+
+.three .photo {
+	right: 0;
+	width: 40%;
+}
+
+.one .background {
+	left: 0;
+	top: 38.5vh;
+	height: 40%;
+}
+
+.two .background {
+	right: 0;
+	top: 30vh;
+	width: 80%;
+}
+
+.three .background {
+	bottom: 0;
+	left: 35vw;
+	height: 60%;
+}
+
+article h6 {
+	color: #919191;
+	font-size: 1rem;
+}
+
+article h3 {
+	color: #ed3f25;
+	font-size: 3.5rem;
+	font-weight: 700;
+	line-height: .9;
+	margin-bottom: 10vh;
+	padding-right: 50vw;
+}
+
+article h4 {
+	color: #212121;
+	font-weight: 700;
+	font-size: 2rem;
+	line-height: 1.7;
+	margin-bottom: 5vh;
+}
+
+article p {
+	padding-bottom: 8vh;
+}
+
+.two ul {
+	list-style-type: disc;
+	margin-left: 2vw;
+	padding-bottom: 1vh;
+	padding-top: 1vh;
+}
+
+.two li {
+	padding-bottom: 1vh;
+}
+
+.soloEsq {
+	margin-left: 3.4rem;
+}
+
+.soloDir {
+	margin-right: 3.4rem;
+}
+
+.three .col-5 {
+	padding-left: 0;
+}
+
+@media only screen and (max-width: 550px) {
+	.mobile {
+		display: none;
+	}
+
+	.headerContent {
+		max-width: 100%;
+	}
+
+	.headerContent h1 {
+		font-size: 2.5rem;
+		padding-left: 0;
+	}
+
+	.soloEsq {
+		margin-left: 0;
+	}
+
+	.soloDir {
+		margin-right: 0;
+	}
+
+	article h3 {
+		font-size: 2.5rem;
+	}
+}

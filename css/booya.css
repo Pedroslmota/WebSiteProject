@@ -1,0 +1,307 @@
+#via-logo {
+	fill: white;
+}
+
+html {
+	max-width: 100%;
+	overflow-x: hidden;
+}
+
+header {
+	background-color: #ff6457;
+	background-image: url(background_Images/booya/circle.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+.snap-child.mainContent {
+	scroll-snap-align: start;
+	scroll-margin-bottom: 80vh;
+}
+
+.navbar {
+	background-color: transparent;
+}
+
+.title {
+	margin-top: 25vh;
+}
+
+#continueTop {
+	margin-top: 26vh;
+}
+
+#continueBot {
+	margin-top: 28vh;
+}
+
+.mainContent {
+	background-color: white;
+	height: 750vh;
+}
+img {
+	width: 100%;
+}
+
+p {
+	color: #919191;
+	font-weight: 200;
+	font-size: 1.2em;
+}
+
+b {
+	font-weight: 600;
+}
+
+.mainContent li {
+	color: #919191;
+	font-weight: 200;
+	font-size: 1.2em;
+}
+
+.number {
+	font-weight: 300;
+}
+
+h1 {
+	font-size: 1.7em;
+	padding-bottom: 3vh;
+	text-transform: uppercase;
+}
+
+.orange {
+	color: #ff6457;
+	font-weight: 600;
+}
+
+.svgCircle {
+	position: absolute;
+}
+
+.one {
+	position: relative;
+	height: 100vh;
+}
+
+.one .row {
+	margin-right: 0;
+	margin-left: 0;
+}
+
+.one img {
+	position: absolute;
+	width: 75%;
+}
+
+.one p {
+	margin-left: 60vw;
+	margin-right: 1vw;
+	margin-top: 20vh;
+	font-size: 1.4em;
+}
+
+.two {
+	position: relative;
+	height: 100vh;
+}
+
+.two h1 {
+	margin-top: 25vh;
+}
+
+.two p {
+	margin-left: 2vw;
+	padding-right: 8vw;
+	font-size: 1.1em;
+}
+
+.two .svgCircle {
+	left: 70.2vw;
+}
+
+.two img {
+	position: absolute;
+	left: 10vw;
+}
+
+.three {
+	height: 100vh;
+	position: relative;
+}
+
+.three h1 {
+	margin-top: 25vh;
+}
+
+.three p {
+	font-size: 1.1em;
+	margin-right: 5vw;
+	padding-left: 2.8vw;
+}
+
+.three .svgCircle {
+	right: 70.2vw;
+	top: 2vh;
+}
+
+.three img {
+	position: absolute;
+	right: 10vw;
+}
+
+.four {
+	position: relative;
+}
+
+.four .svgCircle {
+	position: absolute;
+	top: 90vh;
+}
+
+.four h1 {
+	margin-top: 40vh;
+	margin-left: 15vw;
+}
+
+.four p {
+	margin-left: 18vw;
+	margin-bottom: 5vh;
+}
+
+.four li {
+	margin-left: 20vw;
+	margin-bottom: 4vh;
+	padding-right: 30vw;
+}
+
+.four ul li::before {
+	content: "\2022";
+	color: #ff4500;
+	font-weight: bold;
+	display: inline-block;
+	width: 1em;
+	margin-left: -1em;
+}
+
+.five {
+	height: 150vh;
+	position: relative;
+	margin-top: 30vh;
+}
+
+.five p {
+	columns: #212121;
+}
+
+.five b {
+	font-weight: 700;
+	columns: #212121;
+}
+
+.five h1 {
+	margin-bottom: 20vh;
+}
+
+.five img {
+	margin-bottom: 3vh;
+	margin-top: 15vh;
+	filter: drop-shadow(30px 30px 4px #d3d5d6);
+}
+
+.five .svgCircle {
+	top: 8vh;
+}
+
+@media only screen and (max-width: 550px) {
+	.snap-head {
+		scroll-snap-align: start;
+	}
+
+	.snap-footer {
+		scroll-snap-align: start;
+		scroll-margin-bottom: 50vh;
+		height: auto;
+	}
+
+	header {
+		background-image: url(background_images/booya/circle_mobile.png);
+	}
+
+	.mainContent {
+		height: auto;
+	}
+
+	.title {
+		margin-top: 14vh;
+	}
+
+	.continue {
+		margin-top: 15vh;
+	}
+
+	#computerMockup {
+		display: none;
+	}
+
+	.one p {
+		margin-left: 3vw;
+	}
+
+	.svgCircle {
+		display: none;
+	}
+
+	.two {
+		height: auto;
+	}
+
+	.two img {
+		position: static;
+	}
+
+	.three {
+		height: auto;
+	}
+
+	.three img {
+		position: static;
+	}
+
+	.four {
+		height: auto;
+	}
+
+	.four h1 {
+		margin-left: 5vw;
+	}
+
+	.four p {
+		margin-left: 5vw;
+	}
+
+	.four li {
+		padding-right: 8vw;
+		margin-left: 15vw;
+	}
+
+	.five {
+		height: auto;
+	}
+
+	.five h1 {
+		margin-bottom: 10vw;
+	}
+
+	.five p {
+		margin-top: 5vh;
+		margin-bottom: 10vh;
+		padding: 0 5vw;
+	}
+
+	.five img {
+		width: 40%;
+		display: block;
+		margin: auto;
+		filter: drop-shadow(10px 10px 4px #d3d5d6);
+	}
+}

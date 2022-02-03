@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/myWallet.css">
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/mobileHamburger.css">
+    
+    <link rel="icon" type="image/png" href="Images/favicon-32x32.png" sizes="32x32" />
+
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>VIA | My Wallet</title>
+</head>
+
+<body>
+
+  <div>
+
+    <!-- header section -->
+
+    <header>
+
+        <nav class="navbar navbar-expand-md navbar-dark" id="navbarAnchor">
+            <a class="navbar-brand" href="mainPage.html">
+              <svg class="via-svg" id="via-logo" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1314.24 509.74"><path class="cls-1" d="M657,0a93,93,0,0,0-93,93V352.77L728.87,151.86h0A93,93,0,0,0,657,0Z"/><path class="cls-1" d="M657,509.74a93,93,0,0,0,93-93V157L585,357.87h0A93,93,0,0,0,657,509.74Z"/><path class="cls-1" d="M1066.18,401.76c12.33-10.75,25.68-22.38,40.24-34.94,38-32.77,76.48-49.39,114.41-49.39a133,133,0,0,1,66,17.81L1146.42,63.42l-.23.23-6.56-13.34a89.78,89.78,0,0,0-160.19-2.14l-1.21,2.31L838.94,320.21l-29.62,57.4a89.79,89.79,0,0,0,79.16,132.13C942.23,509.74,976,480.34,1066.18,401.76Z"/><path class="cls-1" d="M1247.11,339c-.92-.2-1.79-.44-2.73-.62s-1.94-.29-2.91-.44c-1.91-.3-3.82-.6-5.81-.8-3.31-.32-6.7-.53-10.22-.53-32.88,0-68.4,15.48-105.58,46-14.49,12.51-27.79,24.09-40.07,34.79-51.1,44.52-85.53,74.51-116.62,92.36h264.56A86.48,86.48,0,0,0,1247.11,339Z"/><path class="cls-1" d="M93.41,192.31a133.07,133.07,0,0,1-66-17.81L167.83,446.32l.22-.24,6.56,13.35a89.78,89.78,0,0,0,160.19,2.14l1.21-2.31L475.3,189.53l29.63-57.4A89.79,89.79,0,0,0,425.76,0C372,0,338.26,29.4,248.07,108c-12.34,10.75-25.69,22.38-40.25,34.94C169.83,175.69,131.34,192.31,93.41,192.31Z"/><path class="cls-1" d="M0,86.51a86.49,86.49,0,0,0,67.14,84.26c.91.2,1.79.44,2.72.62s1.94.28,2.91.44c1.91.3,3.82.6,5.81.79,3.31.33,6.71.54,10.23.54,32.88,0,68.4-15.49,105.57-46,14.49-12.5,27.79-24.08,40.07-34.78C285.55,47.84,320,17.85,351.07,0H86.51A86.51,86.51,0,0,0,0,86.51Z"/></svg>
+            </a>
+            
+          <button onclick="darkFunction()" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span>
+              <svg xmlns="http://www.w3.org/2000/svg" width="34.141" height="13" viewBox="0 0 34.141 13">
+                <g id="Group_2" data-name="Group 2" transform="translate(-831.344 170.495)">
+                  <path id="Path_2221" data-name="Path 2221" d="M832.844-168.995h31.141" fill="none" stroke="#ed3f25" stroke-linecap="round" stroke-width="3"/>
+                  <path id="Path_2222" data-name="Path 2222" d="M832.844-168.995h18.4" transform="translate(12.737 10)" fill="none" stroke="#ed3f25" stroke-linecap="round" stroke-width="3"/>
+                </g>
+              </svg>
+              
+            </span>
+          </button>
+      
+          <div class="collapse navbar-collapse justify-content-stretch" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item px-3">
+                <a class="nav-link current" href="mainPage.html">SOBRE</a>
+              </li>
+              <li class="nav-item px-3">
+                <a class="nav-link" href="Digital.html">DIGITAL</a>
+              </li>
+              <li class="nav-item px-3">
+                <a class="nav-link" href="itServices.html">IT SERVICES</a>
+              </li>
+              <li class="nav-item px-3">
+                <a class="nav-link" href="Carreiras.html">CARREIRAS</a>
+              </li>
+              <li class="nav-item px-3">
+                  <a class="nav-link" href="Contacto.html">CONTACTO</a>
+              </li>
+      
+      <!-- Drop down language menu -->
+      
+              <li class="nav-item dropdown px-3">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    PT
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <a class="dropdown-item" href="#">ENG</a>
+                  <a class="dropdown-item" href="#">ES</a>
+                </div>
+              </li>
+            </ul>
+          </div>
+          </nav>
+
+          <!-- navbar end -->
+
+      <div class="container d-flex justify-content-center">
+        <svg class="title" xmlns="http://www.w3.org/2000/svg" width="964.247" height="224.765" viewBox="0 0 964.247 224.765">
+            <g id="Group_4434" data-name="Group 4434" transform="translate(-478 -428.254)">
+              <path id="Caminho_511" data-name="Caminho 511" d="M629.6,485.454a44.47,44.47,0,0,1,16.161,18.483,60.851,60.851,0,0,1,5.761,26.93v64.082a6.683,6.683,0,0,1-1.776,4.767,6.838,6.838,0,0,1-11.527-4.347q-.006-.21,0-.42V530.886a42.05,42.05,0,0,0-9.061-27.933,29,29,0,0,0-23.27-10.862,32.687,32.687,0,0,0-25.045,10.193,36.51,36.51,0,0,0-9.087,27.058v65.607a6.673,6.673,0,0,1-1.771,4.767,6.838,6.838,0,0,1-11.526-4.337c-.005-.144-.005-.287,0-.43V530.886a42.062,42.062,0,0,0-9.091-27.933,29.025,29.025,0,0,0-23.27-10.862,33.434,33.434,0,0,0-34.811,35.027v67.831a6.673,6.673,0,0,1-1.771,4.767,6.826,6.826,0,0,1-11.512-4.363c0-.134,0-.27,0-.4V487.014a6.4,6.4,0,0,1,1.884-4.876,6.677,6.677,0,0,1,4.767-1.776,6.136,6.136,0,0,1,6.646,6.652v8.644a43,43,0,0,1,15.3-12.413,43.88,43.88,0,0,1,19.5-4.427,42.891,42.891,0,0,1,23.048,6.316,45.406,45.406,0,0,1,16.181,17.4,44.327,44.327,0,0,1,16.623-17.4,45.983,45.983,0,0,1,23.933-6.316A43.112,43.112,0,0,1,629.6,485.454Z" fill="#fff"/>
+              <path id="Caminho_512" data-name="Caminho 512" d="M780.108,484.564a10.157,10.157,0,0,1-.886,3.1L704.755,649.029q-1.992,3.99-5.1,3.99a9.051,9.051,0,0,1-3.1-.665q-4.211-1.776-4.211-5.1a10.151,10.151,0,0,1,.886-3.1l22.143-47.887a8.52,8.52,0,0,1-.886-1.55L665.95,488.337a7.864,7.864,0,0,1-.885-3.547,5.555,5.555,0,0,1,3.768-5.1,7.9,7.9,0,0,1,3.547-.885,5.55,5.55,0,0,1,5.1,3.768l44.989,98.391,45.215-98.184q2-3.99,5.1-3.99a7.882,7.882,0,0,1,3.1.664Q780.1,481.244,780.108,484.564Z" fill="#fff"/>
+              <path id="Caminho_513" data-name="Caminho 513" d="M947.166,481.278a9.369,9.369,0,0,1,2.356,6.744,18.054,18.054,0,0,1-1.122,6.519l-33.275,99.827a11.124,11.124,0,0,1-4.049,5.283,10.792,10.792,0,0,1-6.523,2.136,11.615,11.615,0,0,1-6.858-2.136,9.649,9.649,0,0,1-3.936-5.283l-22.034-81.615-23.157,81.615a10.874,10.874,0,0,1-4.162,5.283,11.367,11.367,0,0,1-13.283,0,10.87,10.87,0,0,1-4.157-5.283l-33.275-99.827a21.186,21.186,0,0,1-.9-6.3,8.362,8.362,0,0,1,9.446-9.44,10.324,10.324,0,0,1,7.084,2.46,17.831,17.831,0,0,1,4.6,7.871L838.208,564.9l22.934-77.572a12.426,12.426,0,0,1,3.936-6.184,10.982,10.982,0,0,1,7.3-2.361,10.65,10.65,0,0,1,7.085,2.361,12.472,12.472,0,0,1,3.935,6.184l20.234,79.141,24.731-77.345q3.143-10.332,11.694-10.331A9.346,9.346,0,0,1,947.166,481.278Z" fill="#fff"/>
+              <path id="Caminho_514" data-name="Caminho 514" d="M1053.4,486.891a59.674,59.674,0,0,1,21.942,22.162,61.832,61.832,0,0,1,8.087,31.362v49.422a11.315,11.315,0,1,1-22.63.074v-8.275a55.286,55.286,0,0,1-92.088-9.858,66.117,66.117,0,0,1-7.424-31.362,62.472,62.472,0,0,1,7.98-31.362,58.308,58.308,0,0,1,22.049-22.163,61.4,61.4,0,0,1,31.141-8.088A60.2,60.2,0,0,1,1053.4,486.891Zm-10.862,89.535a38.328,38.328,0,0,0,14.075-14.847,43.749,43.749,0,0,0,5.1-21.154,44.408,44.408,0,0,0-5.1-21.277,39.072,39.072,0,0,0-53-15.637q-.6.329-1.193.677a38.969,38.969,0,0,0-14.183,14.96,43.615,43.615,0,0,0-5.205,21.277,42.97,42.97,0,0,0,5.205,21.154,39.124,39.124,0,0,0,14.183,14.847A39.758,39.758,0,0,0,1042.541,576.426Z" fill="#fff"/>
+              <path id="Caminho_515" data-name="Caminho 515" d="M1125.972,596.375a33.894,33.894,0,0,1-11.856-14.631,51.271,51.271,0,0,1-4.211-21.154V439.57a11.083,11.083,0,0,1,22.162-.466c0,.155,0,.311,0,.466V560.59a26.48,26.48,0,0,0,3.1,13.519,9.126,9.126,0,0,0,7.98,5.318h5.539a9.211,9.211,0,0,1,7.2,3.1,11.542,11.542,0,0,1,2.77,7.98,9.514,9.514,0,0,1-4.211,7.98,17.834,17.834,0,0,1-10.858,3.1h-.443A29.8,29.8,0,0,1,1125.972,596.375Z" fill="#fff"/>
+              <path id="Caminho_516" data-name="Caminho 516" d="M1192.459,596.375a33.9,33.9,0,0,1-11.856-14.631,51.271,51.271,0,0,1-4.211-21.154V439.57a11.083,11.083,0,0,1,22.162-.466c0,.155,0,.311,0,.466V560.59a26.482,26.482,0,0,0,3.105,13.519,9.131,9.131,0,0,0,7.979,5.318h5.539a9.218,9.218,0,0,1,7.2,3.1,11.538,11.538,0,0,1,2.77,7.98,9.512,9.512,0,0,1-4.211,7.98,17.84,17.84,0,0,1-10.858,3.1h-.447A29.8,29.8,0,0,1,1192.459,596.375Z" fill="#fff"/>
+              <path id="Caminho_517" data-name="Caminho 517" d="M1349.363,546.063a10.123,10.123,0,0,1-7.315,2.77h-84.189a39.039,39.039,0,0,0,14.075,25.045,45,45,0,0,0,42.308,7.094,41.267,41.267,0,0,0,11.856-5.982,11.5,11.5,0,0,1,7.316-2.46,9.528,9.528,0,0,1,6.646,2.214,9.689,9.689,0,0,1,3.994,7.537,8.028,8.028,0,0,1-3.546,6.651,61.348,61.348,0,0,1-18.729,9.75,67.662,67.662,0,0,1-53.962-4.1,57.065,57.065,0,0,1-22.5-21.833,62.01,62.01,0,0,1-8.088-31.691,65.541,65.541,0,0,1,7.644-31.8,55.3,55.3,0,0,1,21.277-21.942,60.737,60.737,0,0,1,30.92-7.871,55.722,55.722,0,0,1,29.477,7.537,49.714,49.714,0,0,1,19.063,21.056,69.478,69.478,0,0,1,6.652,31.027A9.277,9.277,0,0,1,1349.363,546.063ZM1270.8,507.386a39.777,39.777,0,0,0-12.741,23.712h73.793a39.3,39.3,0,0,0-11.079-23.712,32.535,32.535,0,0,0-23.717-8.856,38.336,38.336,0,0,0-26.241,8.856Z" fill="#fff"/>
+              <path id="Caminho_518" data-name="Caminho 518" d="M1439.469,582.522a11.532,11.532,0,0,1,2.769,7.979,9.983,9.983,0,0,1-3.655,7.98,14.051,14.051,0,0,1-9.421,3.1h-3.99a36.483,36.483,0,0,1-19.836-5.652,39.356,39.356,0,0,1-14.074-15.4,46.6,46.6,0,0,1-5.1-21.942v-54.74h-10.2a10.667,10.667,0,0,1-7.537-2.661,8.671,8.671,0,0,1-2.877-6.651,9.184,9.184,0,0,1,2.877-7.089,10.667,10.667,0,0,1,7.537-2.662h10.2V452.872a11.084,11.084,0,0,1,22.163-.466c0,.156,0,.311,0,.466v31.913h18.837a10.661,10.661,0,0,1,7.531,2.662,9.188,9.188,0,0,1,2.884,7.089,8.678,8.678,0,0,1-2.884,6.651,10.655,10.655,0,0,1-7.531,2.661h-18.837V558.6a22.738,22.738,0,0,0,4.875,14.847,14.884,14.884,0,0,0,11.964,5.982h7.537A8.731,8.731,0,0,1,1439.469,582.522Z" fill="#fff"/>
+            </g>
+          </svg>
+          
+          
+            
+      </div>
+
+      <div class="continue container d-flex justify-content-center">
+       
+        <span id="continueTop">
+          <svg xmlns="http://www.w3.org/2000/svg" width="21.719" height="12.93" viewBox="0 0 21.719 12.93">
+            <path id="angle-right" d="M10.95,28.477a2.071,2.071,0,0,1-1.464-3.536l7.323-7.324L9.486,10.293a2.071,2.071,0,1,1,2.929-2.929L21.2,16.152a2.071,2.071,0,0,1,0,2.929L12.415,27.87a2.065,2.065,0,0,1-1.465.607Z" transform="translate(28.477 -8.879) rotate(90)" fill="#fff" opacity="0.502"/>
+          </svg>
+        </span>
+
+        <span id="continueBot">
+          <svg xmlns="http://www.w3.org/2000/svg" width="21.719" height="12.93" viewBox="0 0 21.719 12.93">
+            <path id="angle-right" d="M10.95,28.477a2.071,2.071,0,0,1-1.464-3.536l7.323-7.324L9.486,10.293a2.071,2.071,0,1,1,2.929-2.929L21.2,16.152a2.071,2.071,0,0,1,0,2.929L12.415,27.87a2.065,2.065,0,0,1-1.465.607Z" transform="translate(28.477 -8.879) rotate(90)" fill="#fff"/>
+          </svg>
+        </span>
+
+    </div>
+    </header>
+
+
+    <!-- Content section -->
+
+    <article class="mainContent">
+
+        <section class="one">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-12 col-md-6 textLeft">
+                        <h1><span class="number">01.</span> o que é</h1>
+
+                        <p>
+                            <b>MyWallet</b> é a solução tecnológica que funciona 
+                            como uma carteira convencional, com características 
+                            iguais as de uma conta corrente pré-paga, com dinheiro e cartões. 
+                            A diferença está em ter o formato electrônico e poder 
+                            ser armazenada em qualquer telemóvel.
+                        </p>
+                    </div>
+
+                    <div class="col-12 col-md-6 textRight">
+                        <h1><span class="number">02.</span> como funciona</h1>
+
+                        <p>É a carteira digital que está disponível em diversos 
+                            canais diferentes: <b>App (iOs e Android), portal 
+                            responsive, chatbots e USSD.</b> A solução conta 
+                            com rede de captura de transações de pagamentos 
+                            e permite com segurança que os clientes façam 
+                            as mesmas transações que costumam fazer em suas 
+                            contas bancárias, à semelhança de uma conta pré-paga.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="two">
+            <svg class="svgBackground" xmlns="http://www.w3.org/2000/svg" width="500" height="1000" viewBox="0 0 556 1110.999">
+                <path id="Subtraction_8" data-name="Subtraction 8" d="M-10475.5,1189h-.5V78h.5a564.415,564.415,0,0,1,56.8,2.868,556.843,556.843,0,0,1,55.156,8.418c17.9,3.662,35.808,8.268,53.236,13.688,17.232,5.36,34.4,11.645,51.037,18.68,16.477,6.969,32.813,14.839,48.559,23.392,15.63,8.49,31.039,17.852,45.8,27.825,14.689,9.924,29.077,20.683,42.764,31.979,13.648,11.263,26.921,23.326,39.448,35.853s24.583,25.793,35.854,39.448c11.3,13.691,22.058,28.079,31.979,42.764,9.971,14.759,19.332,30.169,27.824,45.8,8.551,15.74,16.421,32.078,23.393,48.558,7.037,16.638,13.321,33.809,18.679,51.037,5.421,17.429,10.026,35.341,13.688,53.236a556.309,556.309,0,0,1,8.418,55.156A564.307,564.307,0,0,1-9920,633.5a564.3,564.3,0,0,1-2.868,56.8,556.337,556.337,0,0,1-8.418,55.156c-3.662,17.895-8.268,35.806-13.688,53.236-5.357,17.227-11.642,34.4-18.679,51.037-6.972,16.481-14.842,32.818-23.393,48.559-8.491,15.631-17.854,31.041-27.824,45.8-9.921,14.684-20.68,29.072-31.979,42.764-11.271,13.655-23.333,26.928-35.854,39.448s-25.8,24.59-39.448,35.853c-13.687,11.3-28.075,22.055-42.764,31.979-14.762,9.973-30.172,19.334-45.8,27.825-15.745,8.553-32.082,16.423-48.559,23.392-16.634,7.036-33.806,13.32-51.037,18.68-17.428,5.421-35.339,10.026-53.236,13.689a556.951,556.951,0,0,1-55.156,8.418A564.443,564.443,0,0,1-10475.5,1189Z" transform="translate(10476 -78.001)" fill="#d9dfff"/>
+            </svg>
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-4">
+
+                        <p class="purple">APP</p>
+
+                        <img src="images/micro sites/myWallet/iPhone1.png">
+                    </div>
+
+                    <div class="col-4">
+                        <img class="middle" src="images/micro sites/myWallet/iPhone2.png">
+                    </div>
+
+                    <div class="col-4">
+                        <img class="right" src="images/micro sites/myWallet/iPhone3.png">
+                    </div>
+                </div>
+            </div>
+              
+        </section>
+
+        <section class="three">
+            <div class="container">
+                <h2>Permite aos clientes:</h2>
+
+                <ul>
+                    <li>Consultar saldo</li>
+                    <li>Movimentos</li>
+                    <li>Extratos</li>
+                    <li>Comprovativos de transações</li>
+                    <li>Cash-in</li>
+                    <li>Levantamento em dinheiro (agentes e comércios) ou por integração (APIs) com outros meios de pagamento e interfaces</li>
+                    <li>Transferência entre contas</li>
+                    <li>Pagamentos a comércios</li>
+                    <li>Pagamento de serviços</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="four">
+
+            <svg class="svgBackground" xmlns="http://www.w3.org/2000/svg" width="701.499" height="555.999" viewBox="0 0 701.499 555.999">
+                <path id="Subtraction_14" data-name="Subtraction 14" d="M-1750.5,755.5a564.546,564.546,0,0,1-56.8-2.867,556.327,556.327,0,0,1-55.157-8.419c-17.9-3.663-35.808-8.268-53.236-13.688-17.231-5.359-34.4-11.643-51.037-18.679-16.49-6.976-32.828-14.847-48.559-23.393-15.637-8.495-31.047-17.856-45.8-27.824-14.684-9.92-29.072-20.678-42.764-31.978-13.656-11.271-26.929-23.334-39.449-35.854s-24.592-25.8-35.852-39.448c-11.295-13.686-22.054-28.074-31.979-42.763-9.971-14.759-19.333-30.169-27.825-45.8-8.554-15.749-16.425-32.086-23.392-48.559-7.034-16.63-13.319-33.8-18.679-51.037-5.42-17.424-10.026-35.336-13.689-53.237a557.275,557.275,0,0,1-8.418-55.156A564.543,564.543,0,0,1-2306,200v-.5h701.5V736.112c-11.254,3.056-22.708,5.782-34.045,8.1a556.3,556.3,0,0,1-55.156,8.419A564.52,564.52,0,0,1-1750.5,755.5Z" transform="translate(2306 -199.5)" fill="#d9dfff"/>
+            </svg>
+
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-9">
+                        <h1>versão desktop</h1>
+    
+                        <img src="images/micro sites/myWallet/Desktop1.png">
+                    </div>
+                </div>
+    
+                <div class="row justify-content-end">
+                    <div class="col-9">
+    
+                        <img src="images/micro sites/myWallet/Desktop2.png">
+                    </div>
+                </div>
+            </div>
+              
+        </section>
+
+        <section class="five">
+            <h1>portal do comerciante</h1>
+
+            <p>Para confirmar as operações previamente autorizadas pelo cliente (ex: pagamentos, cash in e levantamentos).</p>
+        </section>
+
+        <section class="six">
+            <svg class="svgBackground" xmlns="http://www.w3.org/2000/svg" width="500" height="1000" viewBox="0 0 556 1110.999">
+                <path id="Subtraction_10" data-name="Subtraction 10" d="M-10475.5,1189h-.5V78h.5a564.415,564.415,0,0,1,56.8,2.868,556.843,556.843,0,0,1,55.156,8.418c17.9,3.662,35.808,8.268,53.236,13.688,17.232,5.36,34.4,11.645,51.037,18.68,16.477,6.969,32.813,14.839,48.559,23.392,15.63,8.49,31.039,17.852,45.8,27.825,14.689,9.924,29.077,20.683,42.764,31.979,13.648,11.263,26.921,23.326,39.448,35.853s24.583,25.793,35.854,39.448c11.3,13.691,22.058,28.079,31.979,42.764,9.971,14.759,19.332,30.169,27.824,45.8,8.551,15.74,16.421,32.078,23.393,48.558,7.037,16.638,13.321,33.809,18.679,51.037,5.421,17.429,10.026,35.341,13.688,53.236a556.309,556.309,0,0,1,8.418,55.156A564.307,564.307,0,0,1-9920,633.5a564.3,564.3,0,0,1-2.868,56.8,556.337,556.337,0,0,1-8.418,55.156c-3.662,17.895-8.268,35.806-13.688,53.236-5.357,17.227-11.642,34.4-18.679,51.037-6.972,16.481-14.842,32.818-23.393,48.559-8.491,15.631-17.854,31.041-27.824,45.8-9.921,14.684-20.68,29.072-31.979,42.764-11.271,13.655-23.333,26.928-35.854,39.448s-25.8,24.59-39.448,35.853c-13.687,11.3-28.075,22.055-42.764,31.979-14.762,9.973-30.172,19.334-45.8,27.825-15.745,8.553-32.082,16.423-48.559,23.392-16.634,7.036-33.806,13.32-51.037,18.68-17.428,5.421-35.339,10.026-53.236,13.689a556.951,556.951,0,0,1-55.156,8.418A564.443,564.443,0,0,1-10475.5,1189Z" transform="translate(10476 -78.001)" fill="#d9dfff"/>
+            </svg>
+
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-9">
+                        <img src="images/micro sites/myWallet/Desktop3.png">
+                    </div>
+                </div>
+
+                <div class="row justify-content-end">
+                    <div class="col-9">
+    
+                        <img src="images/micro sites/myWallet/Desktop4.png">
+                    </div>
+                </div>
+            </div>
+
+            
+        </section>
+
+        <section class="seven">
+            <h1>portal do supervisor</h1>
+
+            <p>Para monitorização do negócio e da atividade dos caixas e agentes, com permissões especiais (ex: anulação de pagamentos no dia).</p>
+        </section>
+
+        <section class="eight">
+
+            <svg class="svgBackground" xmlns="http://www.w3.org/2000/svg" width="980.501" height="556" viewBox="0 0 980.501 556">
+                <path id="Subtraction_15" data-name="Subtraction 15" d="M-997.5,556H-1978V197.775c10.2-12.106,21.037-23.906,32.2-35.073,12.514-12.514,25.786-24.577,39.448-35.853,13.7-11.3,28.083-22.061,42.764-31.979,14.764-9.974,30.174-19.335,45.8-27.825,15.739-8.55,32.076-16.42,48.558-23.392,16.641-7.038,33.813-13.323,51.037-18.679,17.427-5.421,35.339-10.026,53.236-13.689A556.341,556.341,0,0,1-1609.8,2.868,564.216,564.216,0,0,1-1553,0a564.225,564.225,0,0,1,56.8,2.868,556.316,556.316,0,0,1,55.156,8.418c17.9,3.662,35.808,8.268,53.237,13.689,17.225,5.356,34.4,11.641,51.036,18.679,16.476,6.969,32.813,14.839,48.559,23.392,15.618,8.484,31.028,17.846,45.8,27.825,14.679,9.917,29.067,20.676,42.764,31.979,13.662,11.276,26.934,23.339,39.448,35.853,12.529,12.529,24.591,25.8,35.853,39.449,11.3,13.69,22.057,28.078,31.979,42.763,9.974,14.765,19.335,30.175,27.824,45.8,8.552,15.741,16.422,32.079,23.392,48.559,7.035,16.633,13.319,33.8,18.679,51.036,5.423,17.436,10.029,35.348,13.689,53.237a556.969,556.969,0,0,1,8.418,55.156,564.517,564.517,0,0,1,2.867,56.8v.5Z" transform="translate(1978)" fill="#d9dfff"/>
+            </svg>
+              
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-9 mockupLeft">
+                        <img src="images/micro sites/myWallet/Desktop5.png">
+                    </div>
+                </div>
+    
+                <div class="row justify-content-end">
+                    <div class="col-9 mockupRight">
+    
+                        <img src="images/micro sites/myWallet/Desktop6.png">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="nine">
+            <h1 class="text-center">outras características</h1>
+
+            <div class="container">
+                <div class="row justify-content-between">
+                    <div class="col-12 col-md-4">
+                        <img src="images/micro sites/myWallet/iconCard.png">
+
+                        <p class="text-center">Possibilita a <b>abertura de contas</b> de acordo com o produto pretendido</p>
+                    </div>
+
+                    <div class="col-12 col-md-4">
+                        <img src="images/micro sites/myWallet/iconMoney.png">
+
+                        <p class="text-center">Conta com <b>sistema próprio de liquidação</b></p>
+                    </div>
+
+                    <div class="col-12 col-md-4">
+                        <img src="images/micro sites/myWallet/iconSettings.png">
+
+                        <p class="text-center"><b>Portal BackOffice</b> para gestão e administração da solução e atenção aos clientes</p>
+                    </div>
+                </div>
+
+                <div class="row justify-content-between bottom-row">
+                    <div class="col-12 col-md-6">
+                        <img src="images/micro sites/myWallet/iconCash.png">
+
+                        <p class="text-center"><b>Contabilidade automática</b> baseada em parametrização dos eventos de todas as operações e emissão de reportes com as notas contábeis geradasido</p>
+                    </div>
+
+                    <div class="col-12 col-md-6">
+                        <img src="images/micro sites/myWallet/iconCircuits.png">
+
+                        <p class="text-center"><b>Interface com agentes para cash-in</b>, através da plataforma <b>Viacash</b> ou de interfaces com outras empresas</b></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+
+    </article>
+
+    
+
+    <!-- Footer section -->
+
+    <footer>
+
+      <div class="foot-text">
+          <div class="container text-center">
+              <p class="foot">Let's talk.</p>
+      
+              <p class="foot">Let's Work.</p>
+      
+              <p class="foot2">info@via.eu.com</p>
+          </div>
+      </div>
+
+      <div class="container">
+          <div class="row">
+                  <div class="col-6 col-lg">
+                      <p class="footcol">Social</p>
+                      <div>
+                          <ul>
+                          <li>
+                              <svg class="socialmedia" xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24"><path d="M12 2c5.514 0 10 4.486 10 10s-4.486 10-10 10-10-4.486-10-10 4.486-10 10-10zm0-2c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm-2 8c0 .557-.447 1.008-1 1.008s-1-.45-1-1.008c0-.557.447-1.008 1-1.008s1 .452 1 1.008zm0 2h-2v6h2v-6zm3 0h-2v6h2v-2.861c0-1.722 2.002-1.881 2.002 0v2.861h1.998v-3.359c0-3.284-3.128-3.164-4-1.548v-1.093z"/></svg>
+                              <svg class="socialmedia" xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24"><path d="M12 2c5.514 0 10 4.486 10 10s-4.486 10-10 10-10-4.486-10-10 4.486-10 10-10zm0-2c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm-2 10h-2v2h2v6h3v-6h1.82l.18-2h-2v-.833c0-.478.096-.667.558-.667h1.442v-2.5h-2.404c-1.798 0-2.596.792-2.596 2.308v1.692z"/></svg>
+                          </li>
+                          </ul>
+                  </div>
+                  </div>
+                  <div class="col-6 col-lg">
+                      <p class="footcol">Explorar</p>
+                      <div class="col">
+                          <ul>
+                              <li><a class="footer-link" href="mainPage.html">Sobre</a></li>
+                              <li><a class="footer-link" href="Digital.html">Digital</a></li>
+                              <li><a class="footer-link" href="itServices.html">IT Services</a></li>
+                              <li><a class="footer-link" href="Carreiras.html">Carreiras</a></li>
+                              <li><a class="footer-link" href="Contacto.html">Contactos</a></li>
+                          </ul>
+                  </div>
+                  </div>
+                  <div class="col-12 col-lg">
+                  <p class="footcol">Novos Negocios</p>
+                  <div class="col">
+                      <ul>
+                      <li><a class="footer-link" href="#">business@via.eu.com</a></li>
+                      <li><a class="footer-link" href="#">+351 211 528 888</a></li>
+                      </ul>
+                  </div>
+                  </div>
+                  <div class="col-6 col-lg">
+                  <p class="footcol">Localização</p>
+
+                  <div class="col">
+                      <ul>
+                      <li><a class="footer-link" href="Contacto.html#portugal">Portugal</a></li>
+                      <li><a class="footer-link" href="Contacto.html#mozambique">Moçambique</a></li>
+                      <li><a class="footer-link" href="Contacto.html#brazil">Brasil</a></li>
+                      <li><a class="footer-link" href="Contacto.html#colombia">Colômbia</a></li>
+                      </ul>
+                  </div>
+
+                  </div>
+                  <div class="col-6 col-lg">
+                  <p class="footcol">Legal</p>
+
+                  <div class="col">
+                      <ul>
+                          <li>
+                              <a class="footer-link" href="#">Terms</a>
+                          </li>
+                          <li>
+                              <a class="footer-link" href="#">Privacy</a>
+                          </li>
+                          <li>
+                              <a class="footer-link" href="#"></a>
+                          </li>
+                          <li>
+                              <a class="footer-link" href="#">©2021 Via. All rights reserved.</a>
+                          </li>
+                      </ul>
+                  </div>
+
+                  </div>
+          </div>
+      </div>
+    </footer>
+  </div>
+
+</body> 
+
+
+
+
+<!-- JS, Popper.js, and jQuery -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="bootstrap/js/bootstrap.min.js"></script>
+<script src="js/darkNav.js"></script>
+
+</html>
